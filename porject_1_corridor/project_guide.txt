@@ -1,0 +1,31 @@
+核心宗旨： 
+将传统的跨国法币汇款（TradFi Routing）视为链上交易，
+用量化代码和法医级的数据审计，测算资金流转过程中的“执行摩擦（Execution Friction）”。
+
+定位： 
+这不是一篇教散户“如何点击下一步”的入金教程，
+而是一份针对特定资金走廊（Corridor）的性能基准报告（Performance Benchmark）。
+
+Strategy: SEO 与 Geo 的极致优化角度
+流量分发不靠玄学，靠极其精密的工程化设计：
+
+1. SEO 优化角度：Bottom-of-Funnel (漏斗最底部的精准捕猎)
+
+不打泛流量： 放弃“最佳跨境汇款工具”这种竞争对手是金融巨头的宽泛词。
+
+锁定高意图焦虑词： 围绕 MYR to IBKR hidden spread, 
+SWIFT intermediary fees Malaysia, 
+real cost funding Interactive Brokers 等长尾词。
+搜索这些词的人，往往手里攥着几万美金，正处于转账前的极端信息焦虑中。
+你的硬核拆解能瞬间建立压倒性的信任。
+
+Programmatic 扩展潜力： 这套 MDX 模板写好后，
+未来的 SGD → USD,
+THB → USD 都可以复用相同的页面结构和组件，
+实现 SEO 矩阵的快速铺开。
+
+2. Geo (地理位置) 优化角度：Context-Aware Terminal (上下文感知的计算终端)
+
+Edge Network 嗅探： 这篇文章不是静态死板的。依托 Vercel 等边缘节点的请求头（如 x-vercel-ip-country），页面在服务器端就已经知道了访客的物理位置。
+
+无缝

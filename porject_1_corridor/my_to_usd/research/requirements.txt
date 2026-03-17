@@ -1,0 +1,4 @@
+requests>=2.28.0
+pandas>=1.5.0
+# optional (only for reddit_fetch.py with API app):
+# praw>=7.7.0

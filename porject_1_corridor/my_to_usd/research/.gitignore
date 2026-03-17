@@ -1,0 +1,7 @@
+# Script output
+data/
+
+# Env
+.venv/
+.env
+*.env
