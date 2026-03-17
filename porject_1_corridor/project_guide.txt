@@ -29,3 +29,49 @@ THB → USD 都可以复用相同的页面结构和组件，
 Edge Network 嗅探： 这篇文章不是静态死板的。依托 Vercel 等边缘节点的请求头（如 x-vercel-ip-country），页面在服务器端就已经知道了访客的物理位置。
 
 无缝
+
+这是一个极其老辣的工程视角问题。你精准地踩到了所有跨国汇款比价平台（甚至是大型金融路由引擎）的阿喀琉斯之踵：TradFi 的数据是封闭的、极其碎片化的，并且银行为了掩盖点差，根本不会提供开放的 Retail FX API。
+
+如果你一开始就试图去对接 Maybank、CIMB 或是各大传统银行的实时汇率爬虫，这个项目在第一个月就会死于无休止的反爬机制和接口变更中。
+
+在 MVP 阶段，我们必须采用**“混合数据源（Hybrid Data Strategy）”**。把 TradFi 的黑盒劣势，转化为你 UI 上的高光时刻。
+
+以下是这个 <CrossBorderCalculator /> 最聪明的初始设计逻辑：
+
+1. 数据架构：三层降级策略 (The 3-Tier Data Strategy)
+你不需要所有的实时数据。你只需要一个**“真理锚点”**，剩下的靠静态推算和用户交互。
+
+Layer 1: 真理锚点 (The Ground Truth) —— 极简的中间价 API
+
+做法： 只需要接入一个最基础、最便宜（甚至免费）的汇率 API（比如 OpenExchangeRates 或 ExchangeRate-API），只拉取 MYR/USD 的实时中间价 (Mid-market Rate)。
+
+意义： 这是照妖镜。所有的摩擦计算，都基于这个绝对客观的基准。
+
+Layer 2: 你的变现通道 (The Affiliate Hook) —— Fintech 开放 API
+
+做法： Wise 提供极其完善的开放 API (/v3/quotes/)。你的计算器可以直接通过 API 实时请求 "10,000 MYR 到 USD" 的精确到账金额和手续费。
+
+意义： 这是你要推的通道，它的数据必须是 100% 精确、实时的，以此展示去中心化/新金融体系的透明度。
+
+Layer 3: 传统银行黑盒 (The TradFi Blackbox) —— 静态快照 + 用户覆盖 (User Override)
+
+做法： 既然银行没有 API，我们就不抓实时数据。在代码里写死一个基于你人工审计的经验点差（比如 Maybank: Mid-market + 1.25%）。
+
+UX 绝杀： 在计算器面板上，给银行汇率旁边加一个输入框："Bank Quote (Input the rate from your app)"。
+
+2. UX 设计：把“没有 API”变成一种“审计体验”
+想象一下这个纯白极简的计算器界面。
+
+当你输入 10,000 MYR 时：
+
+Wise 这一行： 旁边亮起一个绿色的 [Live API] 标签，瞬间算出精确到账 $2,116.50。
+
+Maybank (SWIFT) 这一行： 旁边亮起一个灰色的 [Estimated: +1.25% Spread] 标签。算出大约到账 $2,071.00。
+
+交互提示： 在 Maybank 旁边留一行极简的灰色小字：TradFi banks do not publish real-time execution APIs. Open your banking app and input their quoted rate here to see your exact spread loss.
+
+这种设计的极其高明之处在于：
+你并没有因为缺少 API 而显得不专业。相反，你通过这种对比（Wise 的透明 API vs. 银行的估算/手动输入），极其直观地向用户展示了传统金融的封闭与傲慢。你把一个技术限制，做成了一个极具情绪杀伤力的产品 Feature。
+
+3. 工程实现：极简的 React Component State
+这让你的前端组件变得极其轻量且可靠。你不需要在后端维护庞大的数据库。
