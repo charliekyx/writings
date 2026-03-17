@@ -1,0 +1,47 @@
+BASED ON DATA POITNS
+
+---
+title: "The Real Cost of Funding IBKR from Malaysia (MYR to USD)"
+seo_title: "MYR to IBKR: Calculating Hidden Spreads, SWIFT Fees, and Wire Costs"
+description: "A data-driven execution audit of MYR to USD funding routes. We measure the exact delta lost to bank spreads, intermediary fees, and routing friction."
+date: 2026-03-17
+category: "TradFi Routing"
+---
+
+# Measuring the Real Cost of Funding IBKR (MYR → USD)
+
+When wiring MYR to Interactive Brokers, the nominal fee listed by your local bank is an illusion. Based on an audit of recent execution data, the true cost of moving capital is hidden in FX spreads and intermediary routing.
+
+This is a live benchmark of execution friction across SWIFT networks and fintech rails.
+
+## 1. The Execution Friction Formula
+
+To calculate the exact delta between your starting MYR and the credited USD, we use the following execution cost model:
+
+$$ \text{Total Friction} = \text{Nominal Fees} + \text{FX Spread} + \text{Intermediary Leaks} $$
+
+*(Explain the components here briefly. Introduce "Intermediary" and "Time decay" conceptually to elevate the discourse above a standard Reddit thread.)*
+
+## 2. SWIFT vs. Wise: Auditing the Hidden Spread
+
+*(Use the high-frequency keywords here: "swift", "wise", "spread", "rate".)*
+Banks often advertise flat wire fees but execute the currency conversion at a sub-optimal rate. Let's isolate the exact basis point (bps) loss against the mid-market rate.
+
+<SpreadComparisonChart />
+
+## 3. The Intermediary Bank Blackhole
+
+*(Address the "fee" and "wire" anxiety here.)*
+Why does a $10,000 wire sometimes arrive as $9,975? SWIFT relies on correspondent banks (e.g., JPMorgan, Standard Chartered). Each hop extracts a routing fee that is not disclosed at the time of execution.
+
+## 4. Live Routing Simulator (The Benchmark)
+
+Input your principal amount below to simulate the real-time execution delta. This calculator factors in current estimated spreads and historical intermediary leakages.
+
+<CrossBorderCalculator defaultCurrency="MYR" defaultAmount={10000} />
+
+## 5. Optimized Execution Path (Current Snapshot)
+
+*(Address the "how-to / transfer / deposit" intent, but frame it as the logical output of your audit, not a basic tutorial.)*
+Based on the current friction metrics, the optimal routing architecture for MYR to USD is as follows:
+...
