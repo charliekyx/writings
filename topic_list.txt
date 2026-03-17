@@ -1,0 +1,30 @@
+Corridor: 
+
+MY →  USD
+SGD → USD (Schwab/IBKR)
+Cross-Chain Corridors (L1 → L2)
+
+维度一：TradFi 与跨界资金流
+这是你目前正在做的，最接地气、最容易拿到搜索引擎流量和 Affiliate 现金流的领域。
+MYR -> IBKR: 银行电汇与 Fintech 路由的真实汇损测算（你正在写的首篇）。
+SGD -> 离岸美元资产: 新加坡本地银行与券商的资金通道效率对比。
+PFOF 的代价: 那些号称“零手续费”的散户券商，在订单流支付中吃掉了你多少执行价格。
+Stablecoin Off-ramps: 将 USDC/USDT 变现为法币的各条合规路径的摩擦与损耗极限。
+跨国信用卡的隐形剥削: 动态货币转换 (DCC) 究竟是怎么用极差的汇率割散户的。
+
+维度二：DeFi 与链上黑盒 (The Autopsy & Viral Hook)
+这里是你用代码剖析市场、展示法医级分析能力、吸引高净值交易员的地方。
+Uniswap V3/V4 vs. 聚合器 (1inch/Odos): 10万美金级别 Swap 的实际滑点与路由路径比对。
+Telegram Bots 的执行衰减: Banana Gun 这类机器人为了抢跑，让用户承担了多大的隐藏成本。
+Jaredfromsubway.eth 验尸报告: 这个以太坊上最大的 MEV 机器人，具体的夹人逻辑和利润空间拆解。
+跨链桥的隐性费率: Across vs. Stargate 在大额资金跨链时的周转率与真实磨损。
+Aave 清算机制中的套利者空间: 当市场剧烈波动时，清算人的执行速度如何决定利润。
+
+系统基建与量化工程 (The API & B2B Hook)
+既然你做低延迟交易系统，写 Rust、Go 和 Solidity，这就该是你的技术大本营。这些文章直接为你未来的 API 和个人量化基建打广告。
+Rust 编写 Mempool 监听器: 如何以最低延迟捕获未确认交易。
+Hyperliquid vs. dYdX: 订单簿去中心化交易所的 API 执行延迟实测与对比。
+Solidity 级别的 Gas 优化: 智能合约底层的代码排布如何直接影响一笔交易的最终成本。
+自建 RPC 节点与商业节点 (Alchemy) 的响应差: 毫秒级的延迟在链上套利中值多少钱。
+自动化交易系统的 WebSocket 断连处理: 构建稳健交易 Bot 的工程笔记。
+

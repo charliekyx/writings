@@ -1,0 +1,17 @@
+Corridor: 
+
+MY →  USD
+SGD → USD (Schwab/IBKR)
+Cross-Chain Corridors (L1 → L2)
+
+1. 引入“隐含点差 (Implicit Spread)”的动态回测
+不要只说银行贵，要给出具体的数据。
+做法： 记录过去 30 天内，马来西亚主流银行（如 Maybank, CIMB）在 SWIFT 转账时的实时汇率，与当时的 Google/Mid-market 中间价进行比对。
+深度点： 算出这 1.8% - 2.5% 的损耗中，有多少是由于“汇率点差”贡献的，有多少是“固定手续费”贡献的。
+2. “中转行 (Intermediary Banks) ”的黑盒审计
+这是普通博主绝对写不出来的东西。
+做法： 追踪 10 笔不同金额的电汇，记录它们到达 IBKR 时的具体金额损失。
+深度点： 分析 SWIFT 网络中每一跳（Node）产生的扣费。建立一个简单的概率模型，预测一笔 $10k 的电汇在穿过 Standard Chartered 或 JPMorgan 中转时，预期会消失多少钱。
+3. 机会成本与时间延迟的量化 (Time-Value Decay)
+做法： 计算资金在银行间流转的 3-5 个工作日内，如果这笔钱留在股市里的预期收益（以 S&P 500 日均涨幅为基准）。
+深度点： 证明“慢”本身就是一种 execution friction。
