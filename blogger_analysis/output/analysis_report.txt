@@ -1,0 +1,92 @@
+======================================================================
+  财经博主内容分析报告
+  生成时间: 2026-03-19 15:00
+======================================================================
+
+[一] 样本概览
+  Citrini Research: 20 篇文章
+  Financial Horse: 15 篇文章
+  Of Dollars and Data: 10 篇文章
+  Quant Galore: 20 篇文章
+
+[二] 各博主核心数据对比
+
+  >> Citrini Research
+     平均字数                      1647.70
+     Flesch 可读性                43.48
+     Gunning Fog               16.39
+     平均标题数                     5.50
+     平均表格数                     0.10
+     平均代码块数                    0.00
+     平均联盟链接数                   0.00
+     金融关键词密度 (%)               1.90
+     结构化评分                     14.24
+
+  >> Financial Horse
+     平均字数                      2017.47
+     Flesch 可读性                58.69
+     Gunning Fog               12.38
+     平均标题数                     13.00
+     平均表格数                     1.67
+     平均代码块数                    0.00
+     平均联盟链接数                   0.00
+     金融关键词密度 (%)               4.25
+     结构化评分                     21.09
+
+  >> Of Dollars and Data
+     平均字数                      1612.10
+     Flesch 可读性                56.46
+     Gunning Fog               12.69
+     平均标题数                     4.30
+     平均表格数                     0.00
+     平均代码块数                    0.00
+     平均联盟链接数                   1.40
+     金融关键词密度 (%)               2.84
+     结构化评分                     7.21
+
+  >> Quant Galore
+     平均字数                      1941.85
+     Flesch 可读性                56.00
+     Gunning Fog               14.11
+     平均标题数                     3.30
+     平均表格数                     0.00
+     平均代码块数                    0.40
+     平均联盟链接数                   0.15
+     金融关键词密度 (%)               4.09
+     结构化评分                     8.82
+
+[三] 内容差异化特征
+  代码使用率最高: Quant Galore (20%)
+  表格使用率最高: Financial Horse (53%)
+  联盟链接最密集: Of Dollars and Data (1.40 个/篇)
+  最易读: Financial Horse (Flesch=58.7)
+  最难读: Citrini Research (Flesch=43.5)
+
+[四] Tone 分析 (满分=1.0)
+  冷静教育型                最高: Quant Galore (0.3030)
+  量化技术型                最高: Quant Galore (0.3430)
+  对冲基金精英型              最高: Quant Galore (0.2000)
+  联盟实用型                最高: Financial Horse (0.3790)
+
+[五] 各博主高频关键词 (Top 15)
+
+  Of Dollars and Data
+  wealth(109), business(49), school(44), college(44), home(43), post(43), com(42), services(41), related(40), opinions(40), investment(40), ritholtz(40), management(40), market(38), data(36)
+
+  Quant Galore
+  short(163), data(153), day(144), market(140), strategy(131), trading(129), price(126), quant(112), volatility(93), real(80), stocks(78), let(75), stock(73), high(70), long(69)
+
+  Citrini Research
+  market(128), data(77), growth(71), economy(62), gas(61), paid(60), demand(56), supply(55), defense(55), google(52), years(51), spending(48), long(48), share(46), companies(45)
+
+  Financial Horse
+  gold(274), singapore(175), income(132), iran(100), financial(86), worth(82), net(78), war(77), cpf(74), buy(70), silver(69), risk(68), months(66), horse(63), market(61)
+
+[六] 共性规律 (Cross-Blogger Findings)
+  1. 平均文章长度: 1818 字（均属长内容，>800词）
+  2. 平均标题数: 6.4（所有博主均有明确文章结构）
+  3. 金融关键词密度: 3.26%（内容高度垂直）
+  4. 所有博主均有明确的内容定位和差异化标签
+  5. 所有博主均以教育性内容为主，而非纯新闻/行情播报
+
+======================================================================
