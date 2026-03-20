@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "subreddit": "interactivebrokers",
+    "search_term": "IBKR deposit",
+    "fetched_at": "2026-03-17T03:26:58.997071Z",
+    "count": 25,
+    "source": "public_json"
+  },
+  "posts": [
+    {
+      "id": "1p1yhn4",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "IBKR Deposit Lost",
+      "selftext": "I have been using IBKR for many years, and everything has been running smoothly. But last week, something changed.\n\nMy deposit of £6,000 has disappeared. I sent it on Friday, November 14, and there is still no sign of the money. It wasn't even an international payment. It was a simple, quick payment from one UK bank to another UK bank. And IB support keeps telling me that the deposit isn't showing up on their end.\n\nI've provided all the screenshots, links, and every possible payment tracking number (starting with RP and also with QMS), but even that didn't help.\n\nYesterday, I sent two small deposits from the same bank to the exact same recipient that I saved in my bank's interface, and guess what? Those two small deposits became available in 2 hours! And that first deposit of £6,000 is still “invisible” on their end. How is that even possible?\n\nI wonder if IBKR is a reliable organization at all.\n\nHas anyone else encountered the same problem? How was it resolved?\n\n**Update from November 21.** A week has passed since the payment date. IBKR still does not see the payment on their side. The sending bank has initiated an investigation on their side and responded that it may take up to 10 business days. So far, there are no signs of the money arriving.\n\n**Update from November 28.** Money landed to my IB account, finally! Apparently, the payment had been held by the recepient bank (JPMorgan) for some reason. As I understand, they contacted my bank to verify details. It took 2 weeks for them to process the payment. Also, it seems that IB's doing their work good enough.\n\nThanks everyone for you tips and support. Case closed.",
+      "created_utc": 1763629547.0,
+      "score": 50,
+      "num_comments": 66,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1p1yhn4/ibkr_deposit_lost/"
+    },
+    {
+      "id": "1qsvsv3",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "What's your workflow for depositing money into IBKR?",
+      "selftext": "I find the process quite weird using wire. IBKR asks for a \"transaction reference number\" (TRN), but that's only available _after_ you make the transfer from your bank account. On the other hand, they give you routing information _after_ they ask for the amount and the TRN. So it's a dog chasing its own tail.\n\nI assume the banking information won't change, so theoretically you can:\n\n* make a transfer using the same routing information as always, and putting your account ID/your name\n* take the TRN from your bank's statement\n* then notify IBKR\n\nAlternatively:\n\n* notify IBKR, skipping the TRN which is optional anyway\n* with this, you get routing info (to verify that it hasn't changed since last time)\n* then make the transfer\n\nI find this a bit weird.",
+      "created_utc": 1769944373.0,
+      "score": 11,
+      "num_comments": 20,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1qsvsv3/whats_your_workflow_for_depositing_money_into_ibkr/"
+    },
+    {
+      "id": "1qbvogp",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "IBKR + USD ETFs: best practice when depositing EUR monthly (currency conversion &amp; DCA)",
+      "selftext": "Hi everyone,\n\nI’m using Interactive Brokers (IBKR) and I invest long term using a DCA strategy. I deposit **EUR every month**, but most of the ETFs I invest in are **USD-denominated** (for example VWRA).\n\nI want to make sure I fully understand the **cleanest and most efficient workflow**, especially regarding currency conversion and fees.\n\nAs far as I understand, the “standard” process would be:\n\n1. Deposit EUR\n2. Convert EUR to USD\n3. Invest in the USD ETF (DCA)\n\nMy questions are:\n\n* Is this the correct / recommended way to do it on IBKR?\n* Does IBKR allow **automatic currency conversion** when placing a buy order (i.e. buy VWRA and let IBKR convert the needed amount from EUR to USD automatically), or is it better practice to convert manually beforehand? I'm asking specically because of the fees\n* From a fee perspective, is it better to:\n   * Convert small amounts every month and DCA consistently, or\n   * Wait and convert a larger amount less frequently to reduce FX commissions?\n* For long-term passive investing, what do most of you do in practice?\n\nI’m not trading or timing the market, just building a long-term ETF portfolio, so simplicity and correctness matter more to me than optimizing every last cent.\n\nThanks in advance for any clarification or shared experience.",
+      "created_utc": 1768321235.0,
+      "score": 9,
+      "num_comments": 15,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1qbvogp/ibkr_usd_etfs_best_practice_when_depositing_eur/"
+    },
+    {
+      "id": "1g97l5v",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "IBKR Deposit Lost",
+      "selftext": "I am new to IBKR, I opened my account last month and was a bit skeptical to transfer money but I decided i'd do it first with a small amount and set up IBKR as a payee in my bank online app and see how it goes, and I started with a $100 which was credit to my IBKR account 2 days later and life was good. I then decided to transfer more since I have now verified that the transfer info was fine and the connection works, and I transferred $5k on th1st of October and it's still haven't reached my account yet.\n\nI opened a support ticket with IBKR on the 10th of October, they requested some info which I provided and then came back a few days later and and said that they haven't received anything and asked me to check with my bank, my bank confirmed to me that the money has been deposted in the IBKR bank on the 3rd of October, and gave me the transaction reference which I provided to the IBKR, and a few days later I provided a swift copy as well.\n\nUntil today they still haven't gotten back to me or provided any useful update. Does anyone have a similar experience and did you get your money back at the end? and why does this even happen if previous transfers worked fine?\n\nUPDATE: I just got a response back from IBKR support saying that even with the SWIFT Copy and the transaction reference, they are unable to locate my deposit. This is definitely very concerning to me now. I'll try to call my bank again and see if they can trace it, although they assured me that it was received by the destination bank on the 3rd of October.\n\nUPDATE 2: I called my bank again and they said they'll open an investigation and start tracing the funds and get in touch with the intermediary bank, they said the process usually takes 3-4 working days.\n\nUPDATE 3: The money bounced back to my account today, I am still not clear what went wrong, and when I called my bank they had no idea. All that's written on the transfer back is \"INTERNAL GUIDELINES\". ",
+      "created_utc": 1729563763.0,
+      "score": 39,
+      "num_comments": 71,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1g97l5v/ibkr_deposit_lost/"
+    },
+    {
+      "id": "1ramu17",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "IBKR automatically converted my USD deposit to EUR at exactly 17:00:00 — anyone know why?",
+      "selftext": "I deposited USD via wire transfer into my IBKR account (base currency EUR, cash account, Lithuania/MiFID). I never placed any FX trade, but my activity statement shows a USD → EUR conversion at exactly 17:00:00.\n\n\n\nThe precise timestamp makes me think it was system-generated rather than something I accidentally triggered.\n\n\n\nA few questions:\n\n\\- Does IBKR automatically sweep non-base currency cash to base currency at end of day?\n\n\\- Is this a known behavior for cash accounts with EUR base currency?\n\n\\- Has anyone experienced this and managed to get it reversed?\n\n\n\nThanks",
+      "created_utc": 1771665836.0,
+      "score": 1,
+      "num_comments": 4,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1ramu17/ibkr_automatically_converted_my_usd_deposit_to/"
+    },
+    {
+      "id": "1l6o1ja",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Best way to deposit money to IBKR",
+      "selftext": "Hello. I’m new to IBKR - What would be the best way to deposit funds into my IBKR account? I’m based in Canada",
+      "created_utc": 1749419796.0,
+      "score": 21,
+      "num_comments": 35,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1l6o1ja/best_way_to_deposit_money_to_ibkr/"
+    },
+    {
+      "id": "1pnbgsa",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Using Wise to fund IBKR from Canada: same-day deposits?",
+      "selftext": "Hi there,\n\nIs anyone in Canada using Wise to transfer funds to IBKR? I’d like to know whether the money arrives the same day, what the fees are like, and how the process compares to a regular bank transfer. I’ve heard that Wise has an integration/partnership with IBKR, so I’m trying to understand what the actual advantage is, especially since bank transfers can take a while.\n\nThanks in advance!",
+      "created_utc": 1765815475.0,
+      "score": 4,
+      "num_comments": 6,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1pnbgsa/using_wise_to_fund_ibkr_from_canada_sameday/"
+    },
+    {
+      "id": "1pttmql",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "What should I do if I can't log in to my IBKR account because it has been inactive for a long time without any deposit?",
+      "selftext": "",
+      "created_utc": 1766495660.0,
+      "score": 5,
+      "num_comments": 3,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1pttmql/what_should_i_do_if_i_cant_log_in_to_my_ibkr/"
+    },
+    {
+      "id": "1mc6vn7",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "I can't withdraw €250k.",
+      "selftext": "I've been using Interactive Brokers Ireland (I'm European) and have been with IBKR Ireland for about 8 years. I've accumulated a little over €250,000 and now want to withdraw it to buy a property in my hometown with cash. I've already sold all my stocks and ETFs, and the funds have been sitting in the 'Cash' column for about 5 days, fully settled. Its cash account (no margin).\n\nWhen I notified IBKR Ireland of my intention to withdraw the full amount, I proceeded to do an ACH transfer (which I normally use, as it's fast and has been my preferred method over the past 8 years). Usually, my deposits show up in my account the same day if I notify IBKR and send the money from my bank before 10 p.m. I’ve only made one withdrawal before of €15,000 which took about two days to arrive. That withdraw of €15,000 was made 4 years ago. Never withdrew since then.\n\nHowever, this time, the €250,000 was sent from my IBKR account to my bank account, but nothing has happened....it’s been 15 days. IBKR requested some KYC (Know Your Customer) documents before they could release the funds (at the beginning of asking to withdraw the money). They asked for a bank statement (to verify my identity), ID, source of income, and source of wealth, all the usual paperwork. I submitted everything as requested. Still, I seem to be on some kind of hold period, and I don't understand why.\n\nI'm planning to contact them by phone, but my spoken English is not very good. I'm fluent in writing and listening, but I’ve never actually spoken English in real life.\n\nAnyway, I really hope I’ll get my money soon. I’d appreciate any advice if you have ideas besides calling them. I’m not comfortable waiting half a month to access my own funds. Maybe the slowing process is because of my bank ? I did also notified my bank to expect €250k coming in, but that was 15 days ago. Since then... nothing. Is the money stuck in the air or something ?\n\n\"EDIT\" - If I can't get my €250k in 10 business days. I might do withdraws or €20-50k  (until I withdraw everything) maybe it will be easier that way. I will wait at least until 8/10/2025 and will proceed with this. Never had issue with little withdraws before, but maybe its an issue for higher amount, no idea.",
+      "created_utc": 1753781285.0,
+      "score": 538,
+      "num_comments": 350,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1mc6vn7/i_cant_withdraw_250k/"
+    },
+    {
+      "id": "1p3pcav",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "How do you deposit funds into IBKR from Kenya in 2025?",
+      "selftext": "\nHi everyone,\nFor anyone in Kenya using Interactive Brokers (IBKR), what is the easiest and lowest-cost way to deposit funds right now?\n\nWhich Kenyan banks work best for USD wire transfers?\n\nWhat fees should I expect?\n\nAre there any reliable alternatives like virtual accounts or fintechs that actually work for Kenyans?\n\nAny personal experiences would be really helpful.\n\nThanks!",
+      "created_utc": 1763804777.0,
+      "score": 1,
+      "num_comments": 2,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1p3pcav/how_do_you_deposit_funds_into_ibkr_from_kenya_in/"
+    },
+    {
+      "id": "1np7ykm",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "How to deposit money into IBKR A/C via SBI Net banking (New A/C Set up)",
+      "selftext": "Hi, I am trying to open a Demat A/C with Interactive brokers (India) and I am currently stuck at \"Fund Your A/C\" Step, I'm unable to transfer money to my IBKR A/C using SBI as the VAN shown on IBKR site is only numeric whereas SBI is expecting VAN to be Alphanumeric. Has someone faced a similar issue, if yes, how did you resolve this.\n\nI reached out to IBKR Support (after going through their FAQ loop) but they were unable to help, they simply said the VAN is correct and it is bank issue and I need to reach out to SBI helpdesk :-\\\\\n\nAppreciate your help! Thanks in advance.",
+      "created_utc": 1758707485.0,
+      "score": 0,
+      "num_comments": 7,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1np7ykm/how_to_deposit_money_into_ibkr_ac_via_sbi_net/"
+    },
+    {
+      "id": "1m704vt",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Depositing a huge amount from my other bank account that is not linked to ibkr",
+      "selftext": "It's still under my name but would it matter to ibkr ? Will my monies be trapped ?",
+      "created_utc": 1753245825.0,
+      "score": 2,
+      "num_comments": 13,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1m704vt/depositing_a_huge_amount_from_my_other_bank/"
+    },
+    {
+      "id": "1nx5kbz",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "How can I deposit in IBKR from Bangladesh",
+      "selftext": "I would like to start investing but I cant find a way to deposit. Anyone from Bangladesh succeeded to deposit in IBKR? \n\n",
+      "created_utc": 1759512618.0,
+      "score": 1,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1nx5kbz/how_can_i_deposit_in_ibkr_from_bangladesh/"
+    },
+    {
+      "id": "1n6elm9",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Does ibkr support deposit and withdrawals from revolut?",
+      "selftext": "Does anyone know if ibkr supports revolut. I am in aus. And don't have a usd account beyond revolut. Can I withdraw usd directly from ibkr and will it go through, or send it back etc. \n\nThey say third party is not allow, but \"Third party deposits are defined as those deposits which originate from or are drawn upon an account at a financial institution which is titled in a name other than that of the receiving IBKR account holder(s).\"\n\nSo with revolut, my name show's up under beneficiary. Though behind the scenes account is pooled. So I am not sure. Ibkr and other brokers in general, like webull. ",
+      "created_utc": 1756804157.0,
+      "score": 10,
+      "num_comments": 6,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1n6elm9/does_ibkr_support_deposit_and_withdrawals_from/"
+    },
+    {
+      "id": "1nf88i7",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "If I open a IBKR account as Indian resident, can I deposit using Indian bank account?",
+      "selftext": "I am trying to understand if I open an IBKR account (to trade primarily Canadian and US stocks), can I fund my account using my Indian bank account? My understanding is that they ask for bank account to be in United states. I am a bit confused.",
+      "created_utc": 1757695496.0,
+      "score": 0,
+      "num_comments": 6,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1nf88i7/if_i_open_a_ibkr_account_as_indian_resident_can_i/"
+    },
+    {
+      "id": "1mqcut6",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "whats the minimum deposit  amount to be considered founded? i need real time data from a sierra charts platform and they ask me for a funded ibkr account, i wont use ibkr so i dont want to fund it by a lot, just that it counts as founded",
+      "selftext": "sierra charts (charting platform) gives me a WAY cheaper deal if i have a funded ibkr account to count as non professional, the thing is i wont use ibkr for trading or investment, just for confirmation that i have a founded account, yes i can deposit more money im not starving but  is just that im not sure if this will work like i want and i dont want to involve a lot of money on it, im just testing. thanks.",
+      "created_utc": 1755204688.0,
+      "score": 3,
+      "num_comments": 7,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1mqcut6/whats_the_minimum_deposit_amount_to_be_considered/"
+    },
+    {
+      "id": "1ij1l5s",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "IBKR Showing duplicate deposit of 700K - Bank confirms only one transfer",
+      "selftext": "I’m facing a strange and concerning issue with Interactive Brokers and need advice.\n\nI made a single deposit from my bank, but IBKR shows two deposits of the same amount, effectively doubling my balance. My bank confirms only one transfer was made, and my bank account balance reflects that correctly.\n\nHere’s a timeline of events:\n\n* I contacted IBKR chat support, and they insisted the bank processed two transfers, advising me to check with my bank.\n* My bank confirmed there was only one transfer and suggested the issue is on IBKR’s side.\n* I opened a support ticket through IBKR's site, and after a few days, the extra amount (700K) disappeared from my IBKR cash balance. I assumed the issue was resolved.\n* However, my bank later contacted me saying that IBKR had sent a transfer request for the same duplicate amount, asking if I wanted to approve or reject it.\n* I told the bank to hold off and called IBKR support again. They continue to claim they received two transfers from my bank.\n\nThis situation is baffling and frustrating. I don’t want to touch money that isn’t legally mine, as it could cause tax complications and would undoubtedly be requested back at some point.\n\nIBKR support has been unhelpful, and my ticket remains open with no resolution. My bank insists everything is correct on their end.\n\nI’m stuck and unsure how to proceed. Has anyone faced a similar issue or have any advice on how to get this resolved?",
+      "created_utc": 1738845592.0,
+      "score": 8,
+      "num_comments": 23,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1ij1l5s/ibkr_showing_duplicate_deposit_of_700k_bank/"
+    },
+    {
+      "id": "1j7frt9",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Indian Investor: Can I Deposit INR in IBKR and Convert to USD Within the Platform?",
+      "selftext": "Hey everyone, I'm based in India and looking to invest in US stocks. Does IBKR allow funding in INR and let me convert it to USD within the platform? Direct INR to USD conversion via Banks seems costly, so I'm looking for the most cost-effective way. Any advice would be greatly appreciated!\n",
+      "created_utc": 1741549343.0,
+      "score": 4,
+      "num_comments": 17,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1j7frt9/indian_investor_can_i_deposit_inr_in_ibkr_and/"
+    },
+    {
+      "id": "qrtme4",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "I Used to do Wise(Transferwise) USD to IBKR transfer(Deposit). Looks like it's not gonna work anymore. Did anyone try ACH direct debit with Wise? Or any other alternatives?",
+      "selftext": "",
+      "created_utc": 1636660808.0,
+      "score": 26,
+      "num_comments": 88,
+      "url": "https://reddit.com/r/interactivebrokers/comments/qrtme4/i_used_to_do_wisetransferwise_usd_to_ibkr/"
+    },
+    {
+      "id": "1gbd1w8",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Worst trading app is IBKR Canada. I deposited money via Bill pay(IBKR mentioned 1 business day to transfer) and still a week its on hold. Frustrating. ",
+      "selftext": "After reading so much praise for IBKR canada trading platform, I downloaded it as no other options are advanced in features such as Webull Canada, Wealthsimple dont have stop loss and profit take feature, they don’t offer short selling, forex trading and futures trading. So I downloaded IBKR transfer funds via EFT they took 10 days then I emailed ibkr for faster transfer option, they guided with Bill Pay, I transfer via Bill Pay and it instantly deducted from my account but showing on Hold in IBKR for unknown timeframe 😶‍🌫️ I tried again with more money and still all my money stuck with hold and they only released $100 EFT which I transferred three weeks ago. Very poor service and they never pick my call. Reply app ticket messages after 3-4 days. When I try to withdraw first $100 back to my bank they said its not available for withdrawal for next week. What is this ? I haven’t started trading with it, its my money why they are not realising it. Whenever it will available to withdraw, I will do it and close my account and trash the silly app. I know some of you still say its best, yes its on top in all worst trading app in canada but still shit app. ",
+      "created_utc": 1729803061.0,
+      "score": 0,
+      "num_comments": 21,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1gbd1w8/worst_trading_app_is_ibkr_canada_i_deposited/"
+    },
+    {
+      "id": "1m2fso8",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Deposit to ibkr",
+      "selftext": "From india, \nI have been trying to fund my ibkr account? From axis bank, they don’t have an option invest in equities. You could just select from medical,education, travel any idea 💡? I also tried \n hdfc bank they rejected saying aba number and swift code not correct although it was correct ✅",
+      "created_utc": 1752778041.0,
+      "score": 1,
+      "num_comments": 0,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1m2fso8/deposit_to_ibkr/"
+    },
+    {
+      "id": "1d5gk68",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "Withdrawing GBP takes an unreasonable amount of time in 2024: When it takes 2 hours (still long) to deposit funds into IBKR, it takes five days to withdraw it - what are they doing to those funds",
+      "selftext": "",
+      "created_utc": 1717222699.0,
+      "score": 17,
+      "num_comments": 25,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1d5gk68/withdrawing_gbp_takes_an_unreasonable_amount_of/"
+    },
+    {
+      "id": "1lggp65",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "🧵**[HELP] IBKR executed $46K option order in my cash account with only $20K funds, wiped my entire portfolio — what can I do?**",
+      "selftext": "Hi everyone,\n\nI'm completely devastated and need urgent advice.\n\nOn **June 20, 2025**, I placed a **market order** on Interactive Brokers (IBKR) to buy about **$10,000 worth** of CRCL Jun20'25 230 CALL options. I'm on a **cash account** and had around $10K settled cash.\n\nTo my shock, IBKR executed **30 contracts at $15.40**, totaling **$46,200**, which is **over 4X my actual cash balance** — something that shouldn't even be possible in a **cash account**.\n\nAs a result, they **automatically liquidated my entire portfolio**, including multiple profitable holdings like $MP and $HIMS. And now my account shows **-27K USD**. I’ve lost everything — both capital and massive unrealized profits on the call option, which later soared above $24.\n\n# What makes this worse:\n\n* I relied on IBKR’s **order preview**, which estimated a cost of \\~$10K — matching my balance. This misled me into submitting the order in good faith.\n* The order filled **at full ask**, with zero price improvement, no liquidity slicing — all 30 contracts dumped at once.\n* They now blame me for using a **market order**, despite this being a **cash account** where over-execution shouldn't be possible in the first place.\n* I contacted support immediately, but they only told me \"MIAX won't bust the trade\", and forwarded my ticket to a complaints team — still waiting days later.\n\n# This feels like a catastrophic failure in:\n\n1. **Risk management:** Why did the platform allow a cash account to buy 4x the funds?\n2. **Execution logic:** Why no price protection or smart routing?\n3. **User interface:** Why was I shown a cost estimate far below what was actually executed?\n\nHas anyone had similar experiences with IBKR or other brokers?\n\nWhat are my legal options? I deposited from Europe in EUR — should I consult a lawyer here too?\n\nWould appreciate **any help, advice, or just support**. This is the worst experience I’ve ever had with a broker.\n\nThanks in advance 🙏\n\n[https://imgur.com/a/1RpOyI0](https://imgur.com/a/1RpOyI0)and    [https://imgur.com/a/q4C1T55](https://imgur.com/a/q4C1T55)  here are all my screenshots and im not ai but i use chatgpt cuz im not english first speaker. and i live in italy now its night. hope all u can realise im not bullshiting just need help.\n\nHi everyone,  \nAfter reading through all the comments, I realize many people are focusing on the fact that I used a *market order*, and assuming that the loss was due to slippage on a low-liquidity option.\n\nThat’s not the real issue here.\n\n🔴 **The real issue is this: I was using a** ***cash account*** **with around $20,000 in available funds, but IBKR still allowed the system to execute a market order that ended up costing over $46,000 — more than double my cash.**\n\nThis should not be possible under any circumstances in a cash account.  \nA cash account is supposed to **only allow trades that can be fully covered by existing cash**. Market order or not, the system should have blocked the order or at least partially filled it based on my available balance.\n\nI’m not trying to blame slippage. I understand how market orders work.  \nBut the fact that the system **executed a $46k order in a $20k cash account** is a serious issue — not just a trader mistake. That’s what I’m raising here.\n\n🧾 I’ve attached screenshots clearly showing my available funds are now *–$26,800*, with a realized loss of over $27,000, despite the account being in cash-only mode.\n\nIf you still think this is my fault, I respect your opinion. But please understand:  \n👉 **I’m not asking to be saved from a bad trade. I’m asking why the system over-executed beyond my balance in a mode that’s supposed to strictly prevent this.**",
+      "created_utc": 1750457786.0,
+      "score": 198,
+      "num_comments": 554,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1lggp65/help_ibkr_executed_46k_option_order_in_my_cash/"
+    },
+    {
+      "id": "1djb1hq",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "IDK why but when i deposit money into my ibkr account, it settles/becomes usable but there is no transfer/deduction in my bank account??",
+      "selftext": "I feel like i am just spawning money into my ibkr account and im kinda getting worried. ",
+      "created_utc": 1718773146.0,
+      "score": 2,
+      "num_comments": 24,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1djb1hq/idk_why_but_when_i_deposit_money_into_my_ibkr/"
+    },
+    {
+      "id": "1c6zgp6",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR deposit",
+      "title": "IBKR bank charges for depositing USD from EU",
+      "selftext": "I'd like to deposit USD straight to IBKR from a USD currency account I have in a EU bank. Right from the beginning I have to say I'm NOT interested in converting to Euros and I'm not interested in solutions like Revolut or/and Wise etc. Just a wire transfer from my USD account in EU to IBKR.\n\nSo the  transfer will definitely be routed through an intermediary bank. I'm now researching the fees for any IBKR-related charges for the incoming transfer.\n\nThe bank account provided by IBKR when I choose the USD wire transfer method is a JPMorgan Chase one (667378605 CHASUS33XXX). I have found similar subs here, which cover the subject, but refer to a Citi account of IBKR, which presumably charges $15 for incoming international transfers (apart from any intermediary bank charges?). I'd like to ask the following:\n\n1) Does JPMorgan Chase (IBKR bank) charge for the incoming USD transfer and, if yes, how much?\n\n2) Which intermediary bank is used by IBKR in this case and how much does it charge?\n\n3) When I initiate the transfer from my bank I have 3 options (OUR, BEN, SHA). If I chose OUR, would I pay upfront ALL related charges (intermediary banks/incoming transfer charge) or would there be other surprises down the road? If I chose BEN or SHA are there any benefits?\n\nThanks in advance.",
+      "created_utc": 1713434226.0,
+      "score": 4,
+      "num_comments": 28,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1c6zgp6/ibkr_bank_charges_for_depositing_usd_from_eu/"
+    }
+  ]
+}

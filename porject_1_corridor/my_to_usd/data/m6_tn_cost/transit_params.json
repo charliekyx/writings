@@ -1,0 +1,31 @@
+{
+  "annual_risk_free_rate": 0.04,
+  "note": "Rate for opportunity cost calculation (MYR FD / USD MMF reference)",
+  "routes": {
+    "Wise": {
+      "transit_days": 1.0,
+      "source": "Wise website estimate; 0-1 business day",
+      "notes": "Same-day possible in some corridors"
+    },
+    "Instarem": {
+      "transit_days": 1.5,
+      "source": "Instarem website estimate",
+      "notes": "1-2 business days"
+    },
+    "CIMB SG Hop": {
+      "transit_days": 2.5,
+      "source": "Community estimate",
+      "notes": "Leg1 instant; Leg2 SWIFT 1-2 days; IBKR credit 0-1 day"
+    },
+    "HSBC Hop": {
+      "transit_days": 2.5,
+      "source": "Community estimate",
+      "notes": "Similar to CIMB hop"
+    },
+    "Bank SWIFT TT": {
+      "transit_days": 4.0,
+      "source": "Industry standard SWIFT estimate",
+      "notes": "3-5 business days"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "subreddit": "interactivebrokers",
+    "search_term": "MYR IBKR",
+    "fetched_at": "2026-03-17T03:26:45.247627Z",
+    "count": 1,
+    "source": "public_json"
+  },
+  "posts": [
+    {
+      "id": "14ym5zr",
+      "subreddit": "interactivebrokers",
+      "search_term": "MYR IBKR",
+      "title": "Transfer foreign currency into IBKR account",
+      "selftext": "I'm a retail investor in Singapore who happens to hold some AUD. I would like to transfer these Australian Dollars into my IBKR account, to avoid the double conversion fees of converting the AUD into Singapore Dollars at my local bank, and then from SGD to USD for purpose of buying US equities.  \n\n\nUnder account management, I am not able to select AUD as a currency to deposit. There are other options however, e.g. USD, GBP, MYR, JPY ... Just wondering how do I get this option? Have other non-US investors faced similar issues (if not the AUD, then some other foreign currency you would like to use, but is not available on the drop down menu)?  \n\n\nThanks!",
+      "created_utc": 1689258013.0,
+      "score": 0,
+      "num_comments": 9,
+      "url": "https://reddit.com/r/interactivebrokers/comments/14ym5zr/transfer_foreign_currency_into_ibkr_account/"
+    }
+  ]
+}

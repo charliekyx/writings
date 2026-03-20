@@ -1,0 +1,3 @@
+source_amount,session,mean,std,min,max,count
+10000.0,Asia,2.1222,,2.1222,2.1222,1
+50000.0,Asia,1.8342,,1.8342,1.8342,1

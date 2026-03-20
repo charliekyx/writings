@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "subreddit": "interactivebrokers",
+    "search_term": "IBKR fees",
+    "fetched_at": "2026-03-17T03:27:04.924288Z",
+    "count": 25,
+    "source": "public_json"
+  },
+  "posts": [
+    {
+      "id": "1j8z6fi",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "IBKR fees on ETF - what am I missing?",
+      "selftext": "Hello everyone, probably a stupid question but I just cannot figure this out by myself.\n\nI moved to IBKR from Etoro and my main goal is to invest long-term into ETF, mainly S&amp;P500. I am located in EU, so I thought about buying SPYL or SXR8.\n\nWhat caught my eye is the sum of fees for such an order - I tried to buy 87 EUR worth of SPYL (7 shares) and order preview was showing nearly 2 EUR of fees for this order. That is over 2% of total order value.\n\nIs this normal amount of fees anywhere on IBKR, or am I missing something, maybe there are some cheaper ETFs following S&amp;P500? My plan on IBKR is set to Tiered, I changed it today and few hours later I am still seeing the same amount of fees.\n\nThank you for any advice.\n\nScreenshot for better understanding:\n\nhttps://preview.redd.it/r3jxnlwz24oe1.png?width=1062&amp;format=png&amp;auto=webp&amp;s=b98330f7f439b563a9b4ab2035c8e25ff5d4a1d5\n\n",
+      "created_utc": 1741721084.0,
+      "score": 8,
+      "num_comments": 19,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1j8z6fi/ibkr_fees_on_etf_what_am_i_missing/"
+    },
+    {
+      "id": "1lkkqhc",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Stocks trading fees",
+      "selftext": "Just started day trading shares on IBKR and noticed these ridiculous fees. Im based in Australia so no access to IBKR lite, I'm using pro tiered pricing should i use another broker?\n\n",
+      "created_utc": 1750893543.0,
+      "score": 15,
+      "num_comments": 29,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1lkkqhc/stocks_trading_fees/"
+    },
+    {
+      "id": "1pg70r9",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Fees for withdrawal from IBKR",
+      "selftext": "Has anyone tried taking out a lot of money from your IBKR account ?  Whats the biggest amount youve taken out ? How do they charge the fees for withdrawing if any ? Whats the cheapest way ? Im based in the philippines\n\nTia ",
+      "created_utc": 1765074657.0,
+      "score": 14,
+      "num_comments": 28,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1pg70r9/fees_for_withdrawal_from_ibkr/"
+    },
+    {
+      "id": "1rcra4c",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Funding IBKR from India: Is this IDFC offer (₹1 spread + GST, 0 flat fees) the best for a $2,500 transfer, or should I use IOB/PSU banks?",
+      "selftext": "Hey everyone,\n\nI’m looking to send around $2,500 USD to Interactive Brokers (IBKR). I tried checking various bank including IDFC and found the below details **(using a discount voucher found in-app).**\n\nHere is the exact math from my IDFC transfer:\n\n* **Transfer Amount:** $2,500 USD from INR\n* **INR Amount:** ₹2,29,325  (IDFC Rate = $91.73)\n* **The Spread:** ₹1.00 per USD (Market was \\~90.70, they charged 91.73).\n* **GST:** \\~₹300\n* **Flat Fees (SWIFT / Outward Remittance):** ₹0\n* **Total Effective Cost:** \\~1.2%\n\n**The Dilemma:** I keep reading standard investing advice that says \"never pay more than 0.5% on currency conversion for long-term investing.\"\n\nI know Public Sector Banks (PSUs) like Indian Overseas Bank (IOB), Canara Bank, or SBI can offer razor-thin spreads—sometimes **as low as 10 or 20 paise.**   \n  \nHowever, I also know they tend to stack flat fees (SWIFT charges, OUR intermediary codes, etc.) and the online process can be clunky.\n\n**My questions for those experienced with LRS and IBKR:**\n\n1. For a $2,500 transfer size, is this IDFC setup (higher spread, zero flat fees) mathematically better than a PSU bank (low spread, high flat fees)?\n2. At what transfer amount does the math flip in favor of going through the hassle of opening an IOB/Canara account?\n3. Is it actually possible for an Indian resident to get the total remittance cost under 1%, or is the \"0.5% rule\" just a myth for us?\n\nWould appreciate any insights or real-world math from your recent transfers!",
+      "created_utc": 1771875023.0,
+      "score": 6,
+      "num_comments": 9,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1rcra4c/funding_ibkr_from_india_is_this_idfc_offer_1/"
+    },
+    {
+      "id": "1q9h2zt",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Can IBKR automatically liquidate shares to cover maintenance fees? (EU account)",
+      "selftext": "Hi everyone,\n\nI’m based in Europe and I opened an ibkr account in 2021. At the time, I didn’t really take the time to understand how the IBKR platform, fees, or account rules work. \n\nI deposited 100€ and invested the entire amount into shares of Virgin Galactic. After that, I completely forgot about the account and didn’t log in or monitor it for several years.\n\nA few days ago, I logged back into my account and was surprised to see that I no longer hold any shares at all. The only thing left is a **s**mall amount of cash in EUR.\n\nI’ve seen posts on Reddit mentioning that IBKR charged monthly account maintenance fees for European accounts in the past. This made me wonder whether IBKR might have automatically liquidated my shares over time in order to cover those fees.\n\nI’d also like to know whether this kind of situation could happen again in the future if I deposit money and buy shares or ETFs now. In other words, can IBKR automatically sell positions again to cover fees or inactivity-related costs?\n\nThanks in advance for your opinions and insights.",
+      "created_utc": 1768082487.0,
+      "score": 8,
+      "num_comments": 9,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1q9h2zt/can_ibkr_automatically_liquidate_shares_to_cover/"
+    },
+    {
+      "id": "1psdkra",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "\"Transferring Euros to IBKR Canada Account: Avoiding Currency Exchange Fees?",
+      "selftext": "Hi,\n\n  \nI'm originally from France and recently moved to Canada. I have an IBKR Canada account that I use for investing in registered plans (RRSP/TFSA) with my Canadian income.  \nIn addition, I have assets in France, including about 100k€ in cash that is currently sitting idle.  \nAt first, I was planning to convert this amount into CAD and invest it through a non-registered account in Canada. However, I'm wondering if it's possible to avoid currency exchange fees and the hassle by directly transferring the euros to my IBKR account.\n\n  \nAny thoughts?",
+      "created_utc": 1766342227.0,
+      "score": 1,
+      "num_comments": 11,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1psdkra/transferring_euros_to_ibkr_canada_account/"
+    },
+    {
+      "id": "1pdw1qh",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Wise to IBKR transfer fees",
+      "selftext": "Last time I did this was a few years ago but I remember it costing around $0.5 for $10,000 but today when I'm trying to add the same  amount it the interface shows $45.24.\n\nI'm using the integration that IBKR has with Wise, did something change? or how come this is so expensive now?",
+      "created_utc": 1764841861.0,
+      "score": 4,
+      "num_comments": 11,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1pdw1qh/wise_to_ibkr_transfer_fees/"
+    },
+    {
+      "id": "1r29apf",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Anyone else getting “Clearstream custody fee on STK (Greece)” on IBKR?",
+      "selftext": "Hi all\n\nI’m seeing small daily line items on my IBKR activity statement labelled “CLEARSTREAM CUSTODY FEE ON STK (GREECE)”. It’s showing around €0.05–€0.06 per day (total about €0.57 over \\~10 days).\n\nI hold a few Greek-listed equities, so I’m assuming it’s a third-party custody/safekeeping fee passed through via Clearstream - but I’m trying to understand:\n\n1. Is this normal for Greek stocks on IBKR (or only certain exchanges/ISINs)?\n2. How is it actually calculated - % of market value, per position, per ISIN, minimum fee, etc.?\n3. Is it charged daily vs billed monthly/quarterly/yearly? (I’m seeing daily entries, but not sure if that’s just accrual.)\n4. Currency question: my base currency is GBP, but the account basically only has EUR cash. The statement shows the fee in EUR (and a GBP equivalent), but my EUR cash balance doesn’t seem to move.\n   * Does IBKR net it off later in a single debit?\n   * Or do they convert / take it from another place (my other account that might have GBP cash)?\n\nIf anyone has the same charges (and can confirm the timing/mechanics), I’d really appreciate it.\n\nThanks!\n\nhttps://preview.redd.it/6dcolb57ixig1.png?width=948&amp;format=png&amp;auto=webp&amp;s=9e0cec97d5905147ee29e963e1c764900070a20b\n\n",
+      "created_utc": 1770843238.0,
+      "score": 1,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1r29apf/anyone_else_getting_clearstream_custody_fee_on/"
+    },
+    {
+      "id": "1pm2qb0",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Help me to understand 1$ commission fee on 172$ order - IBKR Lite",
+      "selftext": "I’m on IBKR lite account and a recurring investment of a IAUM. Buying 4.0529@42.44 cost me a commission of 1.09$. Its 6 bps on lite plan. How to exaplain this?\n\nEDIT:  \nAs I found out this fee is due to the \"recurring investment\" commission. I did the same amount of transaction in \"IBKR Lite\" as a market order which cost 0 fees.\n\n&gt;The minimum commission charge is the lesser of the stated minimums (USD 1 for the Fixed structure) or 1% of the trade value. \n\n[**https://www.interactivebrokers.com.sg/lib/cstools/faq/#/content/370325780**](https://www.interactivebrokers.com.sg/lib/cstools/faq/#/content/370325780)\n\n\n\n",
+      "created_utc": 1765678810.0,
+      "score": 12,
+      "num_comments": 6,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1pm2qb0/help_me_to_understand_1_commission_fee_on_172/"
+    },
+    {
+      "id": "1i6m5pc",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Are transaction fees for stocks/ETFS as low as people say in IBKR?",
+      "selftext": "Hello,\n\nI **recently opened an account on IBKR** because I heard that it is one of the best brokers around. Some info about me before showing you what I think is wrong:\n\n* I am Europe based, Czechia if that matters\n* I have set EUR as based currency in my account\n* I have set IBKR Pro Tiered as Pricing Plan - based on the numerous posts I read here, this is what generates the lowest fees for 'small investments'\n* I am interested in stocks/(European) ETFs\n\nToday, at \\~5pm CET, I tried to purchase for 100USD of AMZN shares, when I click on preview the order it shows me that it costs 98.43EUR which is 102.35USD - **2.35% fee** then. For an order of 1kUSD, it would cost me 1,010.46USD - **1.05% fee.**\n\nFor an European ETF, let's say WLD (Amundi MSCI World II UCITS ETF Dist), I try to buy for 100EUR (no USD-EUR conversion this time), it'd cost me 104.5 - **4.5% transaction fee**. For an order of 1kEUR, it'd cost me 1,012.88EUR - **1.3% transaction fee**.\n\nEven on Revolut, not known for their low and stable fees (euphemism), I see lower prices for the same stocks and ETFs.\n\n**My questions:**\n\n* Do you also see these fees for the same examples?\n* If not (which I hope is your answer), do you know what I should do to get the low fees everyone praises?\n\nThank you\n\n**EDIT :** Apparently, I can't add screenshots in comments. I am editing the post to provide an answer to a question asked by u/Ok\\_Necessary\\_8923\n\nhttps://preview.redd.it/s4vr01xuldee1.png?width=1648&amp;format=png&amp;auto=webp&amp;s=5797dd44b80e07eddacb7347abc7789edddc0612",
+      "created_utc": 1737476009.0,
+      "score": 1,
+      "num_comments": 48,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1i6m5pc/are_transaction_fees_for_stocksetfs_as_low_as/"
+    },
+    {
+      "id": "1qo7fjy",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "I don’t get IBKR’s commissions and fees page. Help?",
+      "selftext": "I have a small account with tastytrade and make on average 2 trades per week (4 if we consider open and close as separate trades) each trade on average consists of 2 legs and 4/8 contracts per leg.\n\nSo, not enough to take advantage of tasty’s commission cap which starts at 10 contracts per leg.\n\nWhich is why I’m considering switching brokers to IBKR. However, their page is very confusing for me..\n\nBased on my number of expected trades, would I be spending more on commissions if I switch or not? Would that change if I made larger trades?",
+      "created_utc": 1769499617.0,
+      "score": 0,
+      "num_comments": 0,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1qo7fjy/i_dont_get_ibkrs_commissions_and_fees_page_help/"
+    },
+    {
+      "id": "1o2bbz4",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Currency conversion fees from CAD to USD does not make sense? IBKR stealing money?",
+      "selftext": "Used the currency conversion button in the IBKR APP to convert CAD to USD.\n\nMy calculation according to google: $1,899 CAD = $1,356.81 USD\n\nCalculation in IBKR: Commission of $2.79 charged to my remaining CAD balance but they only gave me $1,355.07 USD in return? It seems like they charge me on the CAD side and then short change me on the USD side as well? Can anybody provide clarity?",
+      "created_utc": 1760028951.0,
+      "score": 0,
+      "num_comments": 7,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1o2bbz4/currency_conversion_fees_from_cad_to_usd_does_not/"
+    },
+    {
+      "id": "1k5vo8w",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Conversion Fee From £ to $ – Wise or IBKR?",
+      "selftext": "Hi All,\n\nI'm funding my live account for the very first time! I live in the UK but trading options means I need to work in USD.\n\nSomeone told me that I need to transfer funds from my UK bank account to Wise, convert £ to $ in Wise, then transfer $ to my IBKR because they have good rates.\n\nSo I moved my money to Wise but I haven't yet converted it.\n\nI paused because ChatGPT is telling me that IBKR has better fees than Wise. It says it's better I transfer money into my IBKR account in £, then convert to $ in IBKR. Verbatim: \"Once the funds are in your IBKR account, you can convert GBP to USD directly within IBKR, typically incurring a fee of around $2 per conversion up to $100,000, which is often cheaper than Wise's conversion fees.\" \n\nIs this true?\n\nDoes anyone have experience with converting in IBKR and with Wise, what's your experience / advice?  \n\n\n",
+      "created_utc": 1745403615.0,
+      "score": 6,
+      "num_comments": 21,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1k5vo8w/conversion_fee_from_to_wise_or_ibkr/"
+    },
+    {
+      "id": "1jf4vv9",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "IBKR fees",
+      "selftext": "Sorry guys. It's pretty basic question. But i recently started IBKR. I am experiencing high fees though. I tried fixed as well as tiered for each of my ~50USD worth of shares for VOO. The fees they charged is ~0.5USD. Is there any calculator for this before placing the order? And the website mentions 0.0035% but the fee charged is much more than this %",
+      "created_utc": 1742411132.0,
+      "score": 4,
+      "num_comments": 18,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1jf4vv9/ibkr_fees/"
+    },
+    {
+      "id": "1ihlw4r",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "IBKR Higher Fees for European ETFs (VWCE) than expected",
+      "selftext": "Hello, \n\n  \nI am new to IBKR and have a very specific question about their pricing.\n\nBased on their [pricing page](https://www.interactivebrokers.com/en/pricing/commissions-stocks-europe.php?re=europe), the minimum transaction fee for stock traded in Germany is 1.25 EUR. I am trying to buy for 1,000 EUR of VWCE on IBIS2 (Germany) - see the screenshot. For 1,000 EUR, the fee should be 1.25 EUR as 0.05% of 1,000 EUR is below 1.25 EUR.\n\nDo you also see that?\n\nAnother question on the way, if I have a Cash account why am I seeing the balances table at the bottom of my screenshot with info about Margin?\n\nThank you\n\nhttps://preview.redd.it/6xinkqcqg5he1.png?width=884&amp;format=png&amp;auto=webp&amp;s=a348e8d8ab1893e1fe8b528ac7df8eac69ddecf3\n\n",
+      "created_utc": 1738687120.0,
+      "score": 0,
+      "num_comments": 22,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1ihlw4r/ibkr_higher_fees_for_european_etfs_vwce_than/"
+    },
+    {
+      "id": "1l1h7fn",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "IBKR offering me excess margin to buy US Treasuries, without any fees?",
+      "selftext": "Received the following messages a few hours ago. Can someone throw some light on this? Seems surprising that IBKR is offering me excess margin to buy US Treasuries one day in advance, and explicitly saying no additional fees would be charged.  \n  \n  \n*Your account U\\*\\*\\*\\*\\*\\*\\*\\* holds USD XXX of US Treasuries maturing on 06/03/2025. If you plan to replace your position on Maturity Date, you may forego one (1) or more days of interest yield, estimated at USD x.xx, due to US Treasury trades settling on the next business day.\\**   \n  \n*You may use your current US Treasury buying power of USD XXX to replace that amount of your position one (1) business day before maturity, 06/02/2025. Buying new US Treasuries on 06/02/2025 will enable you to start earning interest day(s) earlier, on 06/03/2025 instead of 06/04/2025.*   \n  \n*Maturing Position: ...*  \n  \n*You are being notified of your buying power (excess margin capacity) as a courtesy. Your account will not incur any additional fees as a result of purchasing on 06/02/2025.*",
+      "created_utc": 1748868655.0,
+      "score": 12,
+      "num_comments": 8,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1l1h7fn/ibkr_offering_me_excess_margin_to_buy_us/"
+    },
+    {
+      "id": "1jqh94j",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "High Transfer Fees to IBKR from Qatar – Any Solutions?",
+      "selftext": "Hey everyone,\n\nI’ve been using IBKR for passive investing, mainly focusing on ETFs, but I’ve been struggling with high transfer fees when funding my account from Qatar. I use QNB for transfers, and every time I send around $137 to my IBKR wallet, I end up receiving only ~$118, meaning I lose up to $16 per transfer.\n\nThis feels completely counterproductive—whatever I gain from my investments, I end up losing in wire transfer fees. I’ve looked into ways to reduce these costs, but I haven’t found a good solution yet.\n\nI also wanted to ask: is opening a U.S. bank account a viable option for someone in Qatar? From my research, it doesn’t seem possible, but if anyone here has managed to do it or knows a workaround, I’d love to hear about it.\n\nIf you’ve faced similar issues, how did you overcome them? Any alternative funding methods that work better?\n\nWould really appreciate any insights! Thanks.",
+      "created_utc": 1743683698.0,
+      "score": 2,
+      "num_comments": 11,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1jqh94j/high_transfer_fees_to_ibkr_from_qatar_any/"
+    },
+    {
+      "id": "1jdgqhg",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "IBKR VUAA: unusually high fee",
+      "selftext": "Hello,\n\nI'm trying to buy 26 shares on VUAA and my fees seem a bit high. Is that normal? That seems about 13% higher\n\n.\n\n\n\nhttps://preview.redd.it/zy6oy42zz9pe1.png?width=986&amp;format=png&amp;auto=webp&amp;s=6bd0da70c0858cdf84a1c631ba7b5da2c675a4fe\n\nhttps://preview.redd.it/mwnis2910ape1.png?width=888&amp;format=png&amp;auto=webp&amp;s=01ad9463d33b0a1cbe05ab157a1d073d4c50bff6\n\n  \n",
+      "created_utc": 1742228617.0,
+      "score": 3,
+      "num_comments": 11,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1jdgqhg/ibkr_vuaa_unusually_high_fee/"
+    },
+    {
+      "id": "1i76v6h",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Fees of IBKR American Bank when sending money from Europe",
+      "selftext": "Hi all,\n\nDoes anyone know the fees that the American Bank of IBKR applies when you send the money from your personal USD Bank account of a bank in Europe to IBKR American Bank to fund your account to buy US Stocks?\n\n  \nThank you",
+      "created_utc": 1737535767.0,
+      "score": 2,
+      "num_comments": 15,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1i76v6h/fees_of_ibkr_american_bank_when_sending_money/"
+    },
+    {
+      "id": "1gw0jfe",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "Do you guys feel like better and favorable fill prices when buying and selling options compensate for the amount of fees you get with IBKR? I know people will complain about pretty much every broker, but their fills are much better than most others brokers 🤷🏾‍♂️. ",
+      "selftext": "",
+      "created_utc": 1732139874.0,
+      "score": 11,
+      "num_comments": 16,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1gw0jfe/do_you_guys_feel_like_better_and_favorable_fill/"
+    },
+    {
+      "id": "1lw14s7",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "IBKR Fee Calculation",
+      "selftext": "Hey everyone,  \nI bought 43 units at 2.48 each (total: 106.64), and the fee came out to 1.09. I'm using the tiered fee structure, but I'm not exactly sure how the fee was calculated in this case.\n\nDoes anyone know how this works or how to break it down? Just trying to understand the logic behind the 1.09 fee. Appreciate any help!\n\nhttps://preview.redd.it/bfre00u1hybf1.jpg?width=1553&amp;format=pjpg&amp;auto=webp&amp;s=39f4144c1e7014bc4058b82f047af869d9ccbbeb\n\n",
+      "created_utc": 1752113555.0,
+      "score": 1,
+      "num_comments": 0,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1lw14s7/ibkr_fee_calculation/"
+    },
+    {
+      "id": "18cxf0m",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "How are commission fees calculated on IBKR?",
+      "selftext": "Recently I sold 2 calls on separate days, one on Nov 28 and Nov 29. I bring your attention to the Comm Fee column:\n\n1) Why is my Call sold on Nov 28 charged $0.01 while my Call sold on Nov 29 charged $1.53? Even if you divide the latter by 4 it comes to around $0.38/ contract - much higher than $0.01.\n\n2) I'm abit confused on my profit. If I earn a premium of $1528 and the comm fee is $1.53, shouldn't my profit be ($1528 - $1.53 = $1526.47)? Can anyone tell me which is the correct amount going into my account, $1526.47 or $1528?\n\n[Look at the Comm Fee column](https://preview.redd.it/cio2wlukyv4c1.png?width=1693&amp;format=png&amp;auto=webp&amp;s=0945a2be6901ea4d0df8ab77a355cd9f79dc5b5a)",
+      "created_utc": 1701961196.0,
+      "score": 4,
+      "num_comments": 36,
+      "url": "https://reddit.com/r/interactivebrokers/comments/18cxf0m/how_are_commission_fees_calculated_on_ibkr/"
+    },
+    {
+      "id": "1io9o4e",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "I need some help to see if I should switch to IBKR or stay with QT. Trying to figure out fees and conversion costs for my trading style if its worth the switch.",
+      "selftext": "Ok pls anyone whos good at math or knows more than me\n\nIm debating moving from QT to IBKR but im not sure whats going to be cheaper for me, so ill make some numbers here as a rough idea on how I trade and convert USD/CAD:\n\nLets say over the year I will want to convert $30,000 CAD to USD, and then $30,000 USD back to CAD, so 60k worth of conversions over lets say 10 transactions. If I use questrade that would be 10 Norberts Gambits which cost $10 admin fee to execute, then the spreads and losses from the Norberts Gambit. Compared to $20 in fees from IBKR if Im correct. $2 flat fee to convert any amount.\n\nSo far that means $100 in fees from QT as well as losing probably more from the Norberts Gambit trades or $20 in fees from IBKR.\n\nDoes anyone know how much it will \"cost\" me or that I will lose from doing Norberts Gambit for 60k vs using IBKR standard FX conversion? Is it a significant difference?\n\nSo far then IBKR winning for conversion, but now need to factor in commissions for trades.\n\nI do mainly swing trading and long term investing on large cap stocks, so Im trading small volume of shares, probably will do as a guesstimate 300 trade transactions a year. So for QT that would be $0 now, and how much would that be for IBKR? Like at least $250 or so? Or is it much cheaper? I dont really understand the commissions on IBKR. I think its $1 CAD per trade for small share trade under 100 shares. So ya like $250 or more because of ECN fees and stuff.\n\nFinally, the market data package on QT is $20 CAD per month for standard real time streaming on US stocks. I believe its a little cheaper on IBKR, but not by much because its USD prices. So like $10 USD or so. So $15 CAD so 5$ per month saving on data in IBKR - $60 a year saving\n\nSo I save $80 in conversion fees and $60 on data fees, but I spend lets say $250 more on commission fees by switching to IBKR\n\nSo if my math looks kinda decent, would it make sense to just stay at QT then because I will have more fees at IBKR from commissions compared to the savings on conversion and data?",
+      "created_utc": 1739416395.0,
+      "score": 0,
+      "num_comments": 8,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1io9o4e/i_need_some_help_to_see_if_i_should_switch_to/"
+    },
+    {
+      "id": "1jxaooj",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "(I live in the USA) I just want to make an account on IBKR and buy an Australian stock, it's a penny stock but I think this company might be successful in the future. And I want to hold onto this stock for years, so what kind of fees am I looking at for doing this?",
+      "selftext": "So I'm afraid to say the name of this stock cause it's a penny stock, they're literally worth pennies at the moment and I'm afraid that if I tell you this stock then some of you might go buy and that'll raise the share price before I've had time to buy it myself. Maybe after I buy it I'll come back here and make a post and tell you about this company as I'm very excited about it, I think I found a little gem here. A penny stock that I think will actually pay off.\n\nOk so I only own one stock and it's on Charles Schwab and it's $TSOI, I bought 500 dollars worth of it and but later on I learned that I got scammed. If you're curious go on Stocktwits and check out $TSOI and read the posts there about it. TSOI was also a penny stock and yeah, I got scammed.\n\nOk so I called and spoke to a guy at Charles Schwab and he said if I want to buy a stock on the ASX all I have to do is tell him which stock and how many shares I want and then Charles Schwab will just buy it for me but the commission fee will be 100 dollars and also there would be a commission fee from the local market in Australia as well. \n\nAnd well I'm poor, I only want to buy like maybe 200 dollars worth of this ASX penny stock, cause I'm poor at the moment. In fact the reason I only bought $500.00 of the $TSOI stock was cause I was poor otherwise I would've invested a lot more money. And that's nothing, there are people who put all their life savings into buying TSOI stock and yeah, there are multiple lawsuits happening right now concerning TSOI. \n\nSo I only want to buy like maybe $200.00 of this particular ASX penny stock and Charles Schwab wanted to charge me a 100 dollar commission fee plus a fee from the local market so I went and googled \"How to buy Australian stocks if I live in the USA\" and read some Reddit threads and someone mentioned Interactive Brokers and so here I am.\n\nI've made an account on IBKR and I chose IBKR Lite, wasn't sure, was I supposed to choose IBKR Pro? \n\nSo yeah, I called IBKR and spoke to a guy a few days ago who said at bare minimum I have to purchase 500 Australian dollars of this penny stock so bare minimum I would need to deposit like about 400 US dollars into my account to start this thing. So is this true, so what is the bare minimum amount I have to deposit? Also the guy said there would be just one commission fee and it would be like 6 dollars and that's it. I said to him that almost sounds too good to be true. So just a small 6 dollar commission fee for buying ASX stock?\n\nAnd so I just wanna buy this one stock and then hold onto it for years, so what are the associated fees with that? I mean on Charles Schwab creating the account was free and then I deposited some money into the account (I think this was free too, or maybe there was a service fee, I can't remember anymore) and then I bought $TSOI stock and there was a small 7 dollar commission fee for that. And Charles Schwab has been holding onto my TSOi stock for years now and I pay nothing.\n\nIs this how it is on IBKR?\n\nSomeone said this on my other thread, what are they talking about here?\n\n\"I just wanted to add, the margin requirements might be \\~150% of the actual price of the Stock.\n\nMeaning to keep the position open, you might need MORE than the initial purchase price, or they will just auto-liquidate your position.\n\nI am unsure if this applies to a Cash account. But a penny Stock on the ASX is likely considered very high-risk by IBKR and they might want that cushion of safety\n\n(\\~150% of the value, maintained in the account)\n\nGood Luck OP, hopefully you found a little gem there, I just wanted to include this info, just in case it ends up being relevant to your situation.\"",
+      "created_utc": 1744438061.0,
+      "score": 0,
+      "num_comments": 4,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1jxaooj/i_live_in_the_usa_i_just_want_to_make_an_account/"
+    },
+    {
+      "id": "1gb2jkm",
+      "subreddit": "interactivebrokers",
+      "search_term": "IBKR fees",
+      "title": "IBKR Returned Deposit After 25% in fees",
+      "selftext": "I made a deposit of $550 or so into my IBKR Account 2 weeks ago which was subsequently returned to me as apparently the currency sent and the account did not match. Anyways, after trying to find out what happened they returned $410 to my bank account as apparently, each bank they send funds through takes a fee.\n\n  \nHas anyone had a similar experience? I deposited USD into a USD Account and now I have 25% less than before. Can safely say, I will never be using Interactive Brokers again.",
+      "created_utc": 1729776246.0,
+      "score": 0,
+      "num_comments": 13,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1gb2jkm/ibkr_returned_deposit_after_25_in_fees/"
+    }
+  ]
+}

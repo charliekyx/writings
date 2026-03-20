@@ -1,0 +1,11 @@
+route,amount_myr,transit_days,opp_cost_pct,opp_cost_myr,explicit_cost_pct,full_cost_pct,full_cost_myr,note
+Wise,10000.0,1.0,0.011,1.1,,,,Same-day possible in some corridors
+Wise,50000.0,1.0,0.011,5.5,,,,Same-day possible in some corridors
+Instarem,10000.0,1.5,0.0164,1.64,,,,1-2 business days
+Instarem,50000.0,1.5,0.0164,8.2,,,,1-2 business days
+CIMB SG Hop,10000.0,2.5,0.0274,2.74,,,,Leg1 instant; Leg2 SWIFT 1-2 days; IBKR credit 0-1 day
+CIMB SG Hop,50000.0,2.5,0.0274,13.7,,,,Leg1 instant; Leg2 SWIFT 1-2 days; IBKR credit 0-1 day
+HSBC Hop,10000.0,2.5,0.0274,2.74,,,,Similar to CIMB hop
+HSBC Hop,50000.0,2.5,0.0274,13.7,,,,Similar to CIMB hop
+Bank SWIFT TT,10000.0,4.0,0.0438,4.38,,,,3-5 business days
+Bank SWIFT TT,50000.0,4.0,0.0438,21.9,,,,3-5 business days

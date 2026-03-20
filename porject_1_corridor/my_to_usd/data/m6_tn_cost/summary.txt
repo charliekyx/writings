@@ -1,0 +1,17 @@
+Full Cost (Explicit + T+N Opportunity Cost)
+
+Annual risk-free rate: 4.0%
+
+=== RM 10,000 ===
+  Wise                   explicit=     N/A  T+N=0.011%  full=     N/A  ≈ RM 1 in opp cost
+  Instarem               explicit=     N/A  T+N=0.016%  full=     N/A  ≈ RM 2 in opp cost
+  CIMB SG Hop            explicit=     N/A  T+N=0.027%  full=     N/A  ≈ RM 3 in opp cost
+  HSBC Hop               explicit=     N/A  T+N=0.027%  full=     N/A  ≈ RM 3 in opp cost
+  Bank SWIFT TT          explicit=     N/A  T+N=0.044%  full=     N/A  ≈ RM 4 in opp cost
+
+=== RM 50,000 ===
+  Wise                   explicit=     N/A  T+N=0.011%  full=     N/A  ≈ RM 6 in opp cost
+  Instarem               explicit=     N/A  T+N=0.016%  full=     N/A  ≈ RM 8 in opp cost
+  CIMB SG Hop            explicit=     N/A  T+N=0.027%  full=     N/A  ≈ RM 14 in opp cost
+  HSBC Hop               explicit=     N/A  T+N=0.027%  full=     N/A  ≈ RM 14 in opp cost
+  Bank SWIFT TT          explicit=     N/A  T+N=0.044%  full=     N/A  ≈ RM 22 in opp cost

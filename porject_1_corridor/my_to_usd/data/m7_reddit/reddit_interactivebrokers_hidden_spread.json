@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "subreddit": "interactivebrokers",
+    "search_term": "hidden spread",
+    "fetched_at": "2026-03-17T03:27:01.893430Z",
+    "count": 12,
+    "source": "public_json"
+  },
+  "posts": [
+    {
+      "id": "1ognbdh",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Specialty Tools on TWS",
+      "selftext": "I've used TWS for many years now, but only recently started exploring all the additional analysis tools they have available (pic included for those who don't know what I am talking about--most but not all are shown). \n\nI'm curious which tools the community has found extreme value in, perhaps even to the point of pivoting your trading/investment styles or securities because of the tools available. The complete selection of available tools is so expansive that I feel like they could be some pretty deep rabbit holes just in terms of learning how to properly use some of them.\n\nFor example, I use the Volatility Lab quite a bit when assessing potential long volatility plays relative to historical vol. In some ways I would feel blind without it.\n\nSo, what do you use? What do you think are some hidden gems?\n\nhttps://preview.redd.it/2qfgjscc4hxf1.png?width=1261&amp;format=png&amp;auto=webp&amp;s=f926a49993e7d4818a28c6b067360ca995559a9f\n\n",
+      "created_utc": 1761492114.0,
+      "score": 14,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1ognbdh/specialty_tools_on_tws/"
+    },
+    {
+      "id": "1jav7cz",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Securities Gross Position Value -- the hidden terror?",
+      "selftext": "The Securities Gross Position Value (GPV) is a strange metric especially for options traders.   They take the absolute value of all legs of your position, even if they offset each other, e.g. a long vertical, and require that the GPV be &lt;= 50 \\* your net liq.   Huh?  What?  Suppose you have a small account, say $5000.   You buy 2 25pt wide long put verticals on SPX one month out, for about 8 each ($1600).   The advisability of the position is not the issue here -- it's just an example.  The price of the long put is about 108 slightly OTM, the price of the short put is about -100, 25 points lower.  Fine.  The risk of the position is limited, your initial 2\\*$800 = $1,600, with a max profit of 2\\*(25-8) = $3400, ignoring commissions.   But... the  GPV is 2\\* (108+100)  \\* 100 = $41,600.  We're in strange |abs| territory now.   The market crashes by 2000 points.   Vega skyrockets. Each leg shoots up in value to well over 2000.   The GPV explodes to 4\\*2000\\*100 = $800,000 which violates  the GPV &lt;= 50 \\* net liq. requirement.  The account goes into review for possible liquidation -- all of this on your long vertical spread that you paid for in cash. ",
+      "created_utc": 1741924502.0,
+      "score": 2,
+      "num_comments": 16,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1jav7cz/securities_gross_position_value_the_hidden_terror/"
+    },
+    {
+      "id": "1de5dlu",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Investing in US stocks from Europe",
+      "selftext": "Hey guys,\n\n  \nI recently started investing and trading from Europe, have an IBKR account and deposite in euros.\n\nI primary like to invest in US blue chip stocks, so I am unsure if its better to buy on US stock exchanges or to buy US companies listed on European exchanges (usually Xetra).\n\nI see that fees on Xetra are usually higher (\\~1.25EUR) then on NYSE/NASDAQ (0.35USD) by a decent margin, and spread and volatility are always just a little bit better on US exchanges. \n\nIBKR also gives me a decent conversion from EUR to USD, and I can buy stocks directly without first converting so I avoid conversion fee from IBKR.\n\n\n\nSo I am wondering if there is any hidden advantage for trading on European stock exchanges that I am not seeing?\n\nThanks in advance!",
+      "created_utc": 1718195117.0,
+      "score": 16,
+      "num_comments": 31,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1de5dlu/investing_in_us_stocks_from_europe/"
+    },
+    {
+      "id": "1l5muja",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Feasibility of Box Spread Arbitrage with Portfolio Margin + Automation in Canada",
+      "selftext": "I’ve been a reader of this sub for a while but never posted, Today I wanted to share an advanced strategy I’ve been researching, and I’m curious to hear your thoughts.\n\nI think I’ve found a way to use box spreads with Portfolio Margin (PM) to generate low-risk returns, and I’m wondering if anyone in Canada, ON, has tried something like this.\n\nHere’s the basic idea:\n\n•\tOpen a PM-enabled account with Interactive Brokers\n\n•\tTrade 1-month box spreads on a highly liquid index like SPX\n\n•\tUse PM to significantly leverage the position\n\n•\tEarn the implied yield from the box (~5.5% annualized current estimate)\n\n•\tBorrow on margin at (~5.3% USD current estimate)\n\n•\tBecause the borrowed funds are used to generate investment income, the interest should be tax-deductible in Canada, which reduces the effective borrowing cost (Current annually income ~$100,000)\n\n•\tAutomate the whole process using IBKR’s API (rollovers, execution, risk monitoring), placing all 4 legs as a combo order to avoid legging risk. \n\nAt first glance, the return seems small or even slightly negative. But once you factor in the low capital requirements under PM and the tax deduction on interest, the return on equity becomes positive and possibly scalable.\n\nHas anyone here tried this or something similar in Canada? I’d love to know if there are any hidden risks, tax issues, execution slippage, margin rule quirks or if this strategy actually holds up in the real world and not just on paper.",
+      "created_utc": 1749308486.0,
+      "score": 1,
+      "num_comments": 4,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1l5muja/feasibility_of_box_spread_arbitrage_with/"
+    },
+    {
+      "id": "1jw44yt",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Commissions and fees",
+      "selftext": "Hey everyone,\nI’m new on IBKR Pro with Fixed pricing and I tried placing a simple €20 market order for TDIV ETF (VanEck Dividend Leaders UCITS, listed on Euronext Amsterdam).\n\nObviously, I only had €1 available, I wasn’t trying to place the order for real — I was just testing to understand how much the total cost would be for small recurring investments.\n\nBut to my surprise, the app says:\n\n“Available converted to base: €1.00\nCash needed for this order and other pending orders: €25.57”\n\nI expected a €1.25 fee (as per their pricing table), so maybe a total around €21–22 max… But €25.57? That’s over 27% in extra cost. I have no pending orders, no FX conversion needed, and I’m trading in the ETF’s base currency.\n\nI also spoke with support — they kept pointing out that I’m on Fixed pricing but couldn’t explain where the extra cost comes from.\n\nIs there some hidden buffer, or is this just how Tiered behaves on small trades?\n\nAnyone else experienced this?\n\nThanks in advance!",
+      "created_utc": 1744307532.0,
+      "score": 1,
+      "num_comments": 0,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1jw44yt/commissions_and_fees/"
+    },
+    {
+      "id": "1jw450y",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Commissions and fees",
+      "selftext": "Hey everyone,\nI’m new on IBKR Pro with Fixed pricing and I tried placing a simple €20 market order for TDIV ETF (VanEck Dividend Leaders UCITS, listed on Euronext Amsterdam).\n\nObviously, I only had €1 available, I wasn’t trying to place the order for real — I was just testing to understand how much the total cost would be for small recurring investments.\n\nBut to my surprise, the app says:\n\n“Available converted to base: €1.00\nCash needed for this order and other pending orders: €25.57”\n\nI expected a €1.25 fee (as per their pricing table), so maybe a total around €21–22 max… But €25.57? That’s over 27% in extra cost. I have no pending orders, no FX conversion needed, and I’m trading in the ETF’s base currency.\n\nI also spoke with support — they kept pointing out that I’m on Fixed pricing but couldn’t explain where the extra cost comes from.\n\nIs there some hidden buffer, or is this just how Tiered behaves on small trades?\n\nAnyone else experienced this?\n\nThanks in advance!",
+      "created_utc": 1744307537.0,
+      "score": 1,
+      "num_comments": 0,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1jw450y/commissions_and_fees/"
+    },
+    {
+      "id": "1h0dl42",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Brokerage charges",
+      "selftext": "I’m trying to find out the best broker for me. I know IBKR charges lowest for us equities and ETFs. As per their website it says that there will be a flat 2$ per trade in which is their Fx conversion fee and 0.35$ per share. So in the following trade I don’t see the 2$ commission.\n\nSo the entire trade costs me 58.99$ USD which is 83.26$ CAD as per today’s FX rate on Google. Post trade i have 16$ CAD left which means iBKR charges just 74cents in this case. This is insane.\n\nMy question is that are these only the charges? Does it include any other hidden fees like 2$ per trade indirectly?",
+      "created_utc": 1732632556.0,
+      "score": 1,
+      "num_comments": 2,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1h0dl42/brokerage_charges/"
+    },
+    {
+      "id": "19eykc6",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Analysis of Fixed vs Tiered commission structure for US equities",
+      "selftext": "*TLDR - if you don't remove liquidity or trade penny stonks, or if your trade volume is baller level, you can probably skip reading this and choose Tiered.*\n\nMy math is based on the info found at: https://www.interactivebrokers.com/en/pricing/commissions-stocks.php\n\nLet:  \nn = number of shares  \np = share price  \nT = Tiered commission per share (eg .0035 if you're in the bottom tier)  \nx = exchange fee per share or trade value (where negative means rebate)\n\nx depends on:\n\n* Whether you're adding or removing liquidity. Removing is when your order gets matched with one that's already on the book, which occurs when you buy at the Ask, sell at the Bid, or get filled by existing hidden liquidity between the spread. That describes all Market orders, but also marketable Limit orders. From here on, I'll refer to orders as either Taking or Adding.\n\n* Whether the price is below a dollar.\n\n* The route. Most exchanges operate under a maker-taker model, where those adding liquidity are awarded a rebate at the expense of those removing it. Some (currently BYX and NyseNat) have an inverted model incentivizing takers. Exchanges' fee structures and amounts can change; several have in the year since I first wrote this post.\n\n* Whether your added liquidity (to a lit exchange) is visible or hidden in the order book. This depends on `n`, because even if you didn't send a [Hidden order](https://www.interactivebrokers.com/en/trading/ordertypes.php?m=hiddenModal), your order is also hidden if it's an odd lot. Since 11/3/2025, a ticker's round lot size depends on its six-month average closing price, to be updated the first business day of each May and November. See the table below. Example: for BRK.B the current round lot size is 40 (or any multiple thereof), so if your order is for 100 shares, that's a mixed lot consisting of an 80-share round lot and a 20-share odd lot; each will have a different `x`, which is to say you'll have a weighted average `x`.\n\n6mo Avg Price | Round Lot Size\n:--:|:--:\n≤ $250 | 100\n≤ $1000 | 40\n≤ $10000 | 10\n&gt; $10000 | 1\n\nNow for the comparison of Fixed vs Tiered. The commission before fees/rebates is:\n\nFixed = min[.01np, max(1, .005n)]  \nTiered= min[.01np, max(0.35, T⋅n)]\n\nThe fees exclusive to Tiered are:\n\nexchange = n⋅x⋅min(1,p) except for Adding orders @drctedge, whose rebate is always n⋅x  \nclearing = min(.005p, .0002)⋅n  \npass-through (combined) = .000735•commission\n\n(For pass-through I ignore IB's Footnote 5 because it contradicts their [example calculation](https://www.interactivebrokers.com/en/accounts/fees/stocksPricing2.php?nhf=T).)\n\nTiered charges a lower commission even in the lowest tier, plus it allows you to collect maker fees. However, with Fixed you avoid paying taker fees. The cost comparison needs to be split into cases; neither is always cheaper, so the choice depends on which cases most apply to you.\n\n**Case 1: The commission with both structures is between min and max.**\n\nThis happens when `p≥0.5 and n≥max(200, 0.35/T)` simultaneously.\n\nFixed is cheaper IFF `x &gt; (.0048–1.000735⋅T)/min(1,p)`\n\nSo in this scenario, Fixed is cheaper for most Taking orders, while Tiered is cheaper for most Adding orders.\n\n**Case 2: Both get adjusted down to 1%.**\n\nThis happens when `p &lt; max(100T, 35/n)`\n\nWhen p≥1, Tiered is only cheaper for Adding orders to [stay tuned]\nWhen p&lt;1, Tiered is cheaper if and only if:\n\n[stay tuned]\n\n**Scenario 3: Fixed gets adjusted down to 1% while Tiered falls between min and max.**\n\nThis happens when `n≥(0.35/T) and 100T≤p&lt;max(0.50, 100/n)`\n\nTiered is cheaper if Adding order to [stay tuned]\nor if Limit order @drctedge with p&lt; 0.37025725–0.3•floor(n/100)/n\n\n**Case 4: Fixed gets adjusted down to 1% while Tiered gets adjusted up to $0.35.**\n\nThis happens when `n&lt;(0.35/T) and (35/n)≤p&lt;max(0.50, 100/n)`\n\nWhen p≥1 and the order is Adding to [stay tuned], Tiered is cheaper IFF  \np ≥ (35.025725 + 10000x•floor(n/100))/n + .02\n\nWhen p≥1 and the order is Adding to [stay tuned], Tiered is cheaper.\n\nWhen p≥1 and the order is Taking @BYX, Tiered is cheaper IFF p≥(35.025725/n)\n\nWhen p≥1 with any other order type/destination combo, Tiered is cheaper IFF `p≥ 35.025725/n + 100x + .02`\n\nWhen p&lt;1 and the order is Adding @drctedge, Tiered is cheaper IFF p≥[35.025725–0.3•floor(n/100)]/n + .02\n\nWhen p&lt;1 w/ any other order type/destination combo, Tiered is cheaper IFF `p≥(.35025725/n+.0002)/(.01–x)`\n\n**Case 5: Fixed gets adjusted up to $1 while Tiered falls between min and max.**\n\nThis happens when `max(0.35/T, 100/p) ≤ n &lt; 200`, so it's only possible below the third tier.\n\nFixed is cheaper IFF `n &gt; 1/(1.000735⋅T + .0002 + min(1,p)⋅x)`\n\nTiered is automatically cheaper when x&lt;.0012974275 due to the constraint of n&lt;200.\n\n**Case 6: Both get adjusted up to their minima.**\n\nThis happens when `100/p ≤ n &lt; min(200, 0.35/T)`\n\nTiered is cheaper here except with some auction orders or rerouted ones.\n\n**Case 7: Fixed falls between min and max while Tiered gets adjusted up to 0.35**\n\nThis happens when `p≥0.5 and (200 ≤ n &lt; 0.35/T)`, so it's only possible above the second tier.\n\nTiered is cheaper here except with some auction orders or rerouted ones.\n\n-----\n\nThose are all the cases. If you're wondering why there aren't two more: it's impossible for the Tiered cost to get rounded down while the corresponding Fixed cost doesn't, because the conditions required for each would contradict one another.\n\nThat's a mess of info, perhaps more digestible if we hold some x values constant and evaluate from there. Furthermore, let's assume we're at the bottom tier (T=.0035).\n\n##### x=.003\n\nThis includes most Taking orders, and any orders sent to Jefferies algo or Fox River algo.\n\n* Fixed is cheaper when n≥200\n\n* Fixed is cheaper when p&lt;0.50\n\n* When n≥100 and 0.35≤p&lt;max(0.50, 100/n), Tiered is cheaper IFF p&gt;0.5289\n\n* When p≥1 and (100/min(1,p) ≤ n &lt; 200), Fixed is cheaper IFF n&gt;149\n\n* When p&lt;1 and (100/min(1,p) ≤ n &lt; 200), Fixed is cheaper IFF n &gt; 1/(.0037025725 + .003p)\n\n* Tiered is cheaper when 100/p ≤ n &lt; 100\n\n* When n&lt;100 and (35/n)≤p&lt;max(0.50, 100/n), Fixed is cheaper IFF either:\n  * p≥ max(1, 35.025725/n + 0.32)\n  * 1 &gt; p ≥ (.35025725/n + .0002)/.007\n\n##### x=0\n\nThis includes rebateless Adding orders (which occur at some exchanges when p&lt;1 and/or n&lt;100), Taking orders filled by dark pools, and some Taking orders filled by inverted exchanges.\n\n* Tiered is cheaper when p≥0.50 and n≥200\n\n* Fixed is cheaper when p&lt;max(0.35, 35/n)\n\n* When n≥100 and 0.35≤p&lt;max(0.50, 100/n), Tiered is cheaper IFF p&gt;0.3702\n\n* Tiered is cheaper when 100/p ≤ n &lt; 200\n\n* When n&lt;100 and (35/n)≤p&lt;max(0.50, 100/n), Fixed is cheaper IFF p≥ 35.025725/n + .02\n\n##### x&lt;0\n\nThis includes most Adding orders, and some Taking orders filled by inverted exchanges.\n\n* Tiered is cheaper when p≥0.50 and n≥200\n\n* When p&lt;max(0.35, 35/n), Tiered is cheaper IFF limit order to:  \n  * [stay tuned]\n\n* When n≥100 and 0.35≤p&lt;max(0.50, 100/n), Tiered is cheaper IFF limit order to:  \n  * [stay tuned]\n\n* Tiered is cheaper when 100/p ≤ n &lt; 200\n\n* When n&lt;100 and (35/n)≤p&lt;max(0.50, 100/n), Tiered is cheaper IFF one of the following:\n  * p ≥ max(1, 35.025725/n + 100x + .02)\n  * 1 &gt; p ≥ (.35025725/n+.0002)/(.01–x)\n  * [stay tuned]\n\n-----\n\n###### Bottom Tier Examples:\n\nMarket order to buy 500 shares, filled at $5/share @Nasdaq (Island) = Case 1 with x=.003  \nCost: Fixed=$2.524 vs Tiered=$3.37528625\n\nLimit order to buy 500 shares for $5/share @...\n\nLimit order to buy 10000 shares for $0.05/share @Pearl = Case 2 with x= -.0015  \nCost: Fixed=$5.48 vs Tiered=$6.733675\n\nLimit order to buy 1000 shares for $0.40/share @drctedge = Case 3 with x= -.00003  \nCost: Fixed=$4.048 vs Tiered=$3.7205725\n\nMarket order to buy 150 shares, filled at $20/share @Arca = Case 5 with x=.003  \nCost: Fixed=$1.0072 vs Tiered=$1.012585875\n\nMarket order to buy 150 shares, filled at $20/share @IEX = Case 5 with x=.001  \nCost: Fixed=$1.0072 vs Tiered=$0.712585875\n\nMarket order to sell 50 shares, filled at $100/share @Nyse = Case 6 with x=.003  \nCost: Fixed=$1.1497 vs Tiered=$0.65995725\n\n-----\n\n[Here is where I'll attempt to provide cliff notes.]\n\nEdit November 2025: more explanation and clarity, some simplified formulas, updated lot sizes and rebates. (This edit is a work in progress; I'll delete this remark when finished. For now, I've replaced some obsolete info with placeholders.)",
+      "created_utc": 1706149646.0,
+      "score": 14,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/interactivebrokers/comments/19eykc6/analysis_of_fixed_vs_tiered_commission_structure/"
+    },
+    {
+      "id": "ogtpi5",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "IBKR Fees for DCA into ETFs for European investors",
+      "selftext": "Hello, \n\nI wanted to open an account with DEGIRO but since IBKR has eliminated the monthly inactivity fee I am looking forward to start investing with IBKR. \n\nI wanted to compare the fees of  monthly buying one etf e.g.  Vanguard FTSE all world acc (VWCE)  on degiro vs IBKR, but the fees structure is somewhat complicated.\n\n&amp;#x200B;\n\nHow can I calculate the fees to see if IBKR is suitable for my DCA into ETF strategy? Let´s say I want to invest each month around 250Eur.\n\nI found that tiered fees seem better for lower amounts [https://www.interactivebrokers.com/en/index.php?f=1590&amp;p=stocks2](https://www.interactivebrokers.com/en/index.php?f=1590&amp;p=stocks2)\n\nand found the fees for IBKR itself here [https://imgur.com/a/l04A5nH](https://imgur.com/a/l04A5nH) from here I can calculate that IBKR takes 0,050 % from that, making the fee 0,125 Eur, but minimum is **1,25 eur.**\n\n&amp;#x200B;\n\nThen we have the exchange fee, let´s say that I buy the VWCE on xetra in germany (can I do that ?, where can I find out on which exchange can I buy this ETF?)  the costs of xetra exchange are here \n\n[https://imgur.com/a/f212m6h](https://imgur.com/a/f212m6h) , so for 250 eur transaction that is the **0,60 eur** minimum exchange fee + clearing fee of 0,001% that is  **0.0025 EUR +** regulatory fee **0,1 eur** \n\nThat makes the total fee: \n\n1,25 (IBKR) + 0,6 (exchange fee of xetra)  + 0,0025 (regulatory fee of xetra) = **1,8525 EUR is the total fee.** Did I calculate all of this correctly ?\n\nSince my currency is CZK i also need to convert CZK =&gt; EUR, and that adds the 2 usd minimum (since based on calculation from here [https://www.interactivebrokers.com/en/index.php?f=1590&amp;p=fx](https://www.interactivebrokers.com/en/index.php?f=1590&amp;p=fx) the calculated fee is less than the minimum (calculated 0,2 \\* 0,0001 \\* 250 eur = 0,005 eur).\n\nSo in total I should pay:\n\n1) 2 USD for conversion \n\n2) 1,8525 EUR for making the trade. \n\n**That makes the fees 1,53% of the value of the trade.**\n\nIs this calculated correctly?\n\n How does this compare to DEGIRO where I could buy   ***Vanguard FTSE all world acc (VWCE)***  with no **known fee** (since it is on commision free list) , currency swap CZK =&gt;EUR is also for free on degiro, only fee would be 2,5 EUR for amsterdam exchange. \n\nBut in degiro question also is: since there seem to be no visible fees, they must be hidden in the spread of the currencies and ETFs...can we really compare these two brokers in terms of fees?",
+      "created_utc": 1625830503.0,
+      "score": 5,
+      "num_comments": 26,
+      "url": "https://reddit.com/r/interactivebrokers/comments/ogtpi5/ibkr_fees_for_dca_into_etfs_for_european_investors/"
+    },
+    {
+      "id": "1askk0u",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Market if Touched (MIT) Orders",
+      "selftext": "I am trying to understand how these types of orders work still. I am testing out some trades in a paper account and what the different types of transactions do. I placed a sell order on a futures contract so I would want the price to drop. In order to lessen the risk on my losses, I tried to create a market-if-touched buy order a couple dollars above the current market price in case it kept driving higher. \n\nSeconds after my buy order was placed, the order was filled at an instant loss as if the price had met that number I had set it at, but the price of the asset was still at the original number when I created the sell order. I thought maybe it was because there were bids being placed at the price when I set the MIT buy order, but I was not completely sure if that is what was happening. Does anyone else have a good explanation of this?",
+      "created_utc": 1708119908.0,
+      "score": 6,
+      "num_comments": 1,
+      "url": "https://reddit.com/r/interactivebrokers/comments/1askk0u/market_if_touched_mit_orders/"
+    },
+    {
+      "id": "14y1nwu",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "New - fees (The Netherlands)",
+      "selftext": "Hello, \n\nI'm new at interactive brokers..I want to use it simply to buy ETFs and few companies. How does the fee structure of buying ETFs and companies? Is it based on the spread (like trading212) or is there a fixed fee (like Degiro) per transaction? \nIs there a way to create a Pie of stocks ? \n\nAnd overall,is there any hidden fee I should be aware of before opening the account? What's your experience overall? I'm based in the Netherlands and I have degiro and trading212.\n\nThank you very much!",
+      "created_utc": 1689198240.0,
+      "score": 0,
+      "num_comments": 3,
+      "url": "https://reddit.com/r/interactivebrokers/comments/14y1nwu/new_fees_the_netherlands/"
+    },
+    {
+      "id": "14re1gl",
+      "subreddit": "interactivebrokers",
+      "search_term": "hidden spread",
+      "title": "Different prices for different options?",
+      "selftext": "Just wondering, a few days ago I went into a SPY options spread and the commission for 2 contracts was $3.09\n\nToday I went into an Iron Condor (4 options) with TSLA and commission was $2.82\n\nIs the different related to the exchange or the underlying? Can it be optimized?\n\nFound it after hint given:\n\nSettings &gt; Orders &gt; Smart Routing &gt; Smart Prefer Rebate (there are 5 options)\n\n&amp;#x200B;\n\nhttps://preview.redd.it/avl3p1wkq8ab1.png?width=872&amp;format=png&amp;auto=webp&amp;s=e01fd74e4adbb5bb91ad5b26f81b793ebaed4a3c\n\n&amp;#x200B;\n\n&amp;#x200B;",
+      "created_utc": 1688571167.0,
+      "score": 2,
+      "num_comments": 2,
+      "url": "https://reddit.com/r/interactivebrokers/comments/14re1gl/different_prices_for_different_options/"
+    }
+  ]
+}

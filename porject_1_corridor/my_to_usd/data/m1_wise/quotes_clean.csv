@@ -1,0 +1,3 @@
+timestamp,session,source_amount,target_amount,mid_rate_at_quote,wise_rate,implied_rate_calc,fee_total_myr,fee_fixed_myr,fee_variable_myr,spread_pct,all_in_cost_pct
+2026-03-20 06:45:15+00:00,Asia,10000.0,2469.44,0.25385,0.2484627198,0.248463,61.14,4.14,57.0,2.1222,2.7336
+2026-03-20 06:45:15+00:00,Asia,50000.0,12387.64,0.25385,0.2491938186,0.249194,289.14,4.14,285.0,1.8342,2.4125

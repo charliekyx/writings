@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "subreddit": "MalaysianPF",
+    "search_term": "MYR IBKR",
+    "fetched_at": "2026-03-17T03:26:22.631362Z",
+    "count": 25,
+    "source": "public_json"
+  },
+  "posts": [
+    {
+      "id": "1jauahw",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Fund IBKR in USD or MYR?",
+      "selftext": "Newbie looking to fund my IBKR account and wondering which is the way to go. I’m looking to buy CSPX specifically and want to know if I should be funding my IBKR account in MYR or USD? \n\n1) Deposit MYR in IBKR via Wise \n2) Convert to USD in Wise first then deposit USD in IBKR \n\nWhich is better? Or are the differences negligible? Thanks!\n\nEdit: I meant this 1) Deposit MYR in Wise, then let IBKR convert to USD ",
+      "created_utc": 1741921445.0,
+      "score": 13,
+      "num_comments": 16,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1jauahw/fund_ibkr_in_usd_or_myr/"
+    },
+    {
+      "id": "1iprhik",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Deposit MY HSBC (MYR) to SG IBKR (USD/SGD)",
+      "selftext": "I know there are a lot of information out there on best methods (CIMB, YouTrip etc) to transfer SGD to MYR. But does anyone know what is the cheapest way to transfer MYR from my Malaysia HSBC bank to my Singapore IBKR account ?? Right now what I do is MY HSBC &gt; MY Wise &gt; SG wise (convert MYR to SGD) &gt; SG DBS &gt; SG IBKR. In the process, I paid fees to wise for conversion. I hope to look for a cheaper method. I am transferring about 3.4K MYR per month. ",
+      "created_utc": 1739586285.0,
+      "score": 9,
+      "num_comments": 15,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1iprhik/deposit_my_hsbc_myr_to_sg_ibkr_usdsgd/"
+    },
+    {
+      "id": "1dcjnx0",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Wise Fees for MYR--&gt;USD and then USD--&gt;MYR for IBKR",
+      "selftext": "I'm really new at this and I just started buying some ETFs using the guides by Zeit on youtube. I just realized that using WISE from MYR to USA it costs 0.62% (https://wise.com/my/send-money/send-money-to-the-usa) and then when I sell the ETFs, and want to USD--&gt;MYR, it's another 0.48% (https://wise.com/us/send-money/send-money-to-malaysia) \n\nAre there any cheaper options that this? Rakuten, MooMoo and Webull? \n\nThanks so much.\n\nUpdate: After signing up for Rakuten, Moo Moo, and Webull. This is how much USD I can get for RM 1000 and RM 20000. Also want to add that the Malaysian Government charges \"RM1 for every RM1,000 (or fractional part) of the total trade amount | Maximum RM200\" for buying ETFs via Rakuten, MooMoo and Webull. \n\n\n||RM 1000.00|RM 20000.00|\n:--|:--|:--|\n|Wise (inclusive of fees &amp;amp; 0.62%)|USD 209.05|USD 4209.66|\n|Rakuten|USD 210.41|USD 4208.31|\n|MooMoo|USD 210.82|USD 4216.58|\n|Webull|USD 211.30|USD 4226.00|",
+      "created_utc": 1718020476.0,
+      "score": 4,
+      "num_comments": 31,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1dcjnx0/wise_fees_for_myrusd_and_then_usdmyr_for_ibkr/"
+    },
+    {
+      "id": "1bokx40",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Best Way to Deposit to IBKR as a Malaysian (MYR to USD)",
+      "selftext": "Hi everyone, as stated in the title, what would be the current best way to deposit our hard earned MYR to IBKR (USD). I have been using the WISE-IBKR integration since it launched and been auto pilot on it. \n\nRecently stumbled on one of [Ziet YouTube Shorts](https://youtube.com/shorts/8zFQuhHHjw0?si=LHGvjAM4s-2_1na-) and found out that there might be a better cost saving measure, if you already have a CIMB SG account. Not sure if I understand correctly, but the summary of the method is CIMB MY (MYR) &gt; CIMB SG (SGD) &gt; IBKR (SGD) &gt; IBKR (USD).\n\nSince the CIMB SG way is doing 2 times of currency exchange (MYR to SGD, then SGD to USD) compared to only once for WISE-IBKR integration (only MYR to USD), is using the CIMB SG way really cheaper than WISE-IBKR integration? Much appreciated if anyone that has experience on both methods can provide some insights. Thank you in advance!\n",
+      "created_utc": 1711491411.0,
+      "score": 22,
+      "num_comments": 12,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1bokx40/best_way_to_deposit_to_ibkr_as_a_malaysian_myr_to/"
+    },
+    {
+      "id": "1amcxdu",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "IBKR to Wise vs IBKR to Cimb SG for USD/SGD to MYR",
+      "selftext": "Hi all, I was wondering which option is cheaper when transferring money back from IBKR to Malaysia, I did some calculations and it seems like IBKR to CIMB SG is cheaper, did I miss something?",
+      "created_utc": 1707444411.0,
+      "score": 2,
+      "num_comments": 8,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1amcxdu/ibkr_to_wise_vs_ibkr_to_cimb_sg_for_usdsgd_to_myr/"
+    },
+    {
+      "id": "1phhou1",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "100K Milestone",
+      "selftext": "I just hit my first 100k (MYR) milestone at 23. I’ve always lived below my means, so now I’m not sure what to do with this amount sitting in the bank.\n\nI started working in Singapore a year ago with a salary of around 4k+ SGD and managed to save about 50% of my gross income, plus I had some Malaysian savings from before. I already have my emergency fund sorted, and now I want to figure out how to grow my money further.\n\nHere are the options I’m considering:\n\nS&amp;P 500 (VOO via Moomoo or CSPX via IBKR)\n- DCA monthly (long term investing) - Planning to allocate 25% of gross income every month. \n\nApply Malaysian Credit Card \n- To build credit score so that i’m eligible to loan a home / car in near future. \n\nEPF\n- Self contribute a chunk of the amount into my EPF as i’m earning in SGD and would not have any contribution to my retirement funds. \n\n*The only debt i have is PTPTN loan amounting to 15k* \n\nI’m still on a work pass (not a PR), so I’m cautious with spending and planning because my job isn’t guaranteed long term. I know keeping a big chunk of cash in the bank won’t help much because of inflation, and I want to move from just saving to actually investing and letting my money work for me.\n\nTL;DR: I want to grow my money instead of letting it sit in the bank. Considering S&amp;P 500 DCA, building Malaysian credit, or contributing to EPF. What makes the most sense given that I'm not a PR yet and my work pass ends in a year?\n\n\n\n\n\n",
+      "created_utc": 1765213136.0,
+      "score": 105,
+      "num_comments": 41,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1phhou1/100k_milestone/"
+    },
+    {
+      "id": "1r2l2eg",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Questions about IBKR",
+      "selftext": "Currently I have about RM100k invested in interactive brokers account. Mainly holding VWRA, VOO and Google stock. \n\nI’m planning to DCA into VWRA for the next 15 years. \n\nIs it safe to keep such a big portion of money invested in IBKR since it’s not approved by Malaysia securities of commissions yet. \n\nHow do I withdraw the money if let’s say I retire at 55yo? And converting it to MYR? \n\nWhat about inheritance? Can I pass it down to my kids in the event of my passing? \n\nThank you for answering ",
+      "created_utc": 1770874090.0,
+      "score": 52,
+      "num_comments": 20,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1r2l2eg/questions_about_ibkr/"
+    },
+    {
+      "id": "1narqd7",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Funding IBKR from Malaysia – cheapest way",
+      "selftext": "Options I see:\n\n1. Convert MYR → USD in Wise, then send to IBKR.\n2. Fund MYR directly to IBKR and let them convert.\n3. Fund MYR in Wise. Then convert to EUR (smaller fee than USD). Then go to IBKR and Transfer from Wise, selecting your EUR balance (no fee compared to USD). Then trade as usual and let IBKR auto-convert currency for a very very small fee at spot rate (don’t manual convert, it will charge you USD2). (I read it somewhere in a youtube comment )\n\nWhat’s the most cost-efficient way? Anyone here doing this from Malaysia?",
+      "created_utc": 1757247594.0,
+      "score": 48,
+      "num_comments": 35,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1narqd7/funding_ibkr_from_malaysia_cheapest_way/"
+    },
+    {
+      "id": "1cgknan",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "24 and feeling absolutely lost. Let's have a discussion.",
+      "selftext": "Hi everyone, I'm a 24M Malaysian that's been working for a couple years now. Adult life is weird, and I have a little laundry list of questions that I hope fellow seniors here at r/MalaysianPF can answer.\n\nLooking forward to seeing people discuss and share their opinions too!\n\nThe post is extremely long, so feel free to pick and choose what to answer!\n\nMy personal context is at the bottom.\n\n# 1 - Investments\n\nAfter a couple years of dabbling and research into various investments, I've settled on my current plan for the foreseeable future : a 2-fund portfolio consisting of stocks (VWRA) and bonds (EPF).\n\nBasically, I toss everything into VWRA (through IBKR) every couple months, do the yearly voluntary contribution into EPF for tax deductions, and that's it.\n\nI see a lot of posts on this sub about alternate investments, and would like to listen to differing opinions on the following (or other) investments :\n\n&amp;#x200B;\n\n* **ASB**\n\nAgree that it's great, but non-bumi sooo...\n\n* **Other ASNB Funds**\n\nI used to have some funds in them, but the (variable-price) performance was garbage and other (fixed-price) funds are too hard to purchase consistently, so US ETFs are ultimately superior\n\n*  **ETFs through IBKR**\n\nLow cost index funds ultimately seem like the best, most stable long-term investment overall. I picked an all-world index over US market indexes / S&amp;P500 indexes to diversify. (Although the US market seems to be doing pretty well comparatively recently) This is basically the retirement fund, only to be touched after 20-30 years.\n\n* **EPF**\n\nI see a lot of hate for EPF around, but I think it's great. Guaranteed 5%+ returns, government-backed, what's not to love? I'm also planning to do my first property purchase using the account 2 withdrawal, so it's a good place to park extra cash. Also serves as the stable bond diversification instrument of my portfolio.\n\n* **Gold**\n\nPersonally, I think it's a garbage investment only propped up by speculation, similar to cryptocurrency. It's just a metal, it doesn't do anything, and I don't see a future where gold is still growing in value consistently for the next 30-40 years.\n\n* **Crypto**\n\nHave dabbled in trading since the crypto rush 3-4 years ago and am somewhat knowledgeable about the space. I view it similar to gold, but it's very new and unregulated, so lots of opportunities for gains (and losses) here. Liquidated all my crypto recently and only hold \\~1k USDT for cases where I might need it. I think it's way too volatile to take up any significant part of my portfolio, and I don't want to spend the time / effort / mental energy to worry about the crypto fluctuations and trading.\n\n* **Stashaway / Wahed / RoboAdvisors / etc.**\n\nIt's IBKR ETFs on easy-mode. Might as well go through IBKR to minimize fees.\n\n* **FD**\n\nReturns are too low to consider for my situation, anything that would go into FD goes into EPF for higher guaranteed returns. Personally don't have too many situations where FD makes sense. Instruments such as TnG / GX / Rize offer a decent enough interest rate to keep short-term liquid cash in.\n\n* **Property**\n\nDiscussed in another section, but listing here for completeness\n\n# 2 - Insurance\n\nI know this is a must-purchase for everyone, but I just don't know where to start.\n\n* \\- What company do I go for?\n* \\- How much coverage should I get?\n* \\- Medical + Life + Disability insurance, is that all I need?\n* \\- How do I minimize payments with the maximum coverage?\n\nMy company offers medical insurance, but that's about it. AFAIK, it's better to get personal medical insurance.\n\nI know pretty much nothing when it comes to this, and hopefully someone can give advice.\n\n# 3 - Property \n\nEveryone needs to own a home. I'm currently living with parents, but I'm looking into purchasing a small studio (for 2-3 persons) for own-stay purposes. Basically me and my GF. However, the current property market is worrying, to say the least, and I'm not sure if making a purchase now is a good choice, especially considering that I can stay with my parents to minimize expenses.\n\nShould I look to purchase property, and how would I go around looking for the best deals? Is RUMAWIP a good choice?\n\nWould renting be a better option than buying, especially in the short term?\n\nWhat about property for investment? I've seen many people advocate for, and against it. It seems like it's not easy to make a great return unless you're willing to take on the time, effort and research needed, and even then, it still comes with risks. This further reinforces my choices to take the 'easy way', which is dumping into index funds / EPF.\n\n# 4 - Car \n\nI take public transport everywhere. Grab when no public transport / lazy. Use parents car (old Saga) sometimes for special events.\n\nPublic transport in KL is shit. Public transport outside of KL is double-shit. However, it's cheap though, so it is what it is.\n\nIs there a good solution for cheap transportation? I'm looking towards getting a new Saga or Myvi. Would like to get a secondhand, but have no confidence on picking a good car / maintenance and repairs. Would it be a smart choice to buy new?\n\nObviously, I'd like to buy a more expensive car (read: city, cx5, civic) but it's out of my range, and I doubt it's worth it (although folks would say otherwise). Opinions?\n\n**5 - life** \n\nnot related to personal finance, but im so tired\n\n# Context\n\nSome background to add context to the discussion - 24M, Non-Bumi Malaysian\n\nI work in KL, staying with parents.\n\nI know I'm privileged. No flaming / ragebait please, thank you.\n\n**Net Worth**\n\nTotal - \\~120k MYR\n\n* No home / vehicle equity\n* KLSE Stock - 14k (Maybank, Public Bank, and Sunway REIT)\n* EPF - 40k\n* VWRA - 60k\n* Cash / Others - 6k\n* Emergency Fund - 3k\n* *## No loans / commitments atm*\n\n**Budget &amp; Expenses**\n\nNet Income - 5200\n\nTotal Expenses - 2000\n\n **--- Breakdown ---**\n\n* Food - 600\n* Family - 500\n* Entertainment - 300\n* Transportation - 100 (My50 + Grab)\n* Rental - 0\n* Insurance - 0\n* Phone - 0\n* Travel Fund - 500\n* Emergency Fund - 200 (Aiming to accumulate 6x monthly expenses)\n* Others - 300\n\n# thanks for reading, bye now",
+      "created_utc": 1714453251.0,
+      "score": 108,
+      "num_comments": 80,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1cgknan/24_and_feeling_absolutely_lost_lets_have_a/"
+    },
+    {
+      "id": "1aum8vq",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Better alternatives to Wise?",
+      "selftext": "I want to convert 6 digits MYR into USD, or whatever currency that IBKR accepts. But Wise is charging 0.6%+ and I'm not really keen on paying RM1000+ just on conversion fees alone. Are there better alternatives out there?\n\nEdit: Of course I'm not just looking for something that claims to have low fees but actually hides them in the exchange rate. That defeats the purpose. Currency exchange market rates exist, and they can be traded on IBKR for example, with a very small fee. For example, if I were European and I wanted to change them to USD, all i need to do is to deposit my EUR into IBKR, then exchange it at market rate in IBKR and pay a small fee, like a few dollars. But unfortunately IBKR doesn't allow deposits in MYR, hence the standard practice is to first convert it into a currency that can be accepted by IBKR e.g. EUR, GBP, then only convert it again, if necessary. For MYR, this initial conversion is costly, and this is what I'm trying to find out, whether there are better options out there that are cheaper to convert MYR to a currency like USD.",
+      "created_utc": 1708346047.0,
+      "score": 15,
+      "num_comments": 115,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1aum8vq/better_alternatives_to_wise/"
+    },
+    {
+      "id": "1nxt0rq",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "FSMOne vs IBKR for DCA into VWRA",
+      "selftext": "Hi everyone,\n\nI’m a Malaysian investor looking to DCA into **VWRA** and I’m comparing between **FSMOne Malaysia (RSP)** and **IBKR**. CMIIW, but below are the information I found:\n\n**FSMOne (Malaysia RSP):**\n\n* Buy fee: 0% (for RSP purchases)\n* Sell fee: 0.15% of trade value, min **GBP 15**\n* FX: if funding in MYR, FSMOne converts to USD at their spread (not sure how competitive it is).\n\n**IBKR:**\n\n* Commission: 0.05% of trade value, min **USD 1.70** per trade\n* FX: very tight spreads (\\~0.002% + USD 2 per conversion)\n\n**My main questions:**\n\n1. For Malaysians DCA-ing in VWRA, is FSMOne’s RSP (0% buy) actually better than IBKR, or does IBKR’s cheaper FX + lower sell fees win out in the long run?\n2. FSMOne’s FAQ says there are no charges for transferring ETFs/stocks in/out (including LSE). Has anyone here successfully transferred VWRA from FSMOne to IBKR? \n3. If transfers aren’t possible, then it seems like FSMOne locks me into selling with their GBP 15 minimum fee. In that case, would it be smarter to just start with IBKR even for DCA?",
+      "created_utc": 1759581897.0,
+      "score": 33,
+      "num_comments": 16,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1nxt0rq/fsmone_vs_ibkr_for_dca_into_vwra/"
+    },
+    {
+      "id": "1pz82er",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Is it cheaper to use maybank global access account to transfer to IBKR?",
+      "selftext": "Recently opened a maybank global access multicurrency account and as per the description, there is no conversion fees and it strictly uses maybanks conversion rate. \n\nQuestion is, is it feasible to covert from MYR to USD in app, and then do a direct transfer from maybank to IBKR instead of the traditional Wise transfer method?\n\nI'm unable to find any pages online regarding fees for overseas transfers from the global access account so can't confirm for myself. \n\nAny thoughts on this? ",
+      "created_utc": 1767067790.0,
+      "score": 9,
+      "num_comments": 3,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1pz82er/is_it_cheaper_to_use_maybank_global_access/"
+    },
+    {
+      "id": "1onz4p0",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Interactive Brokers vs Maybank for Index ETF",
+      "selftext": "Hi all,\n\nI plan to invest in the world index ETF **VWRA** for the long term. I'm currently leaning toward Interactive Brokers (IBKR), but I have a few concerns and hope the community can help clarify:\n\n1. If a serious account issue happens with IBKR, would I be forced to fly to the US to resolve it?\n2. What happens if I want to pass my investments to my children? Is the estate process complicated for non-US residents?\n3. When the time comes to liquidate large amounts and transfer back to my Malaysian bank, could I face problems or delays?\n4. Given these concerns, would Maybank be a safer choice despite higher fees?\n\nFor comparison:\n\n|Cost|Buy (incl. FX)|Sell (incl. FX back to MYR)|\n|:-|:-|:-|\n|Maybank|\\~3.1%|\\~1.5%|\n|IBKR|\\~0.72%|\\~0.59%|\n\nI like IBKR’s low fees, but peace of mind matters too. Would love to hear from Malaysians who have experience with IBKR vs Malaysian brokerages for long-term global ETF investing.\n\nThanks!",
+      "created_utc": 1762233612.0,
+      "score": 10,
+      "num_comments": 9,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1onz4p0/interactive_brokers_vs_maybank_for_index_etf/"
+    },
+    {
+      "id": "1fiuvhr",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "My 2-Year Investment Journey: Progress, Strategy, and Lessons Learned",
+      "selftext": "[Imgur Gallery Link](https://imgur.com/a/TFErOPd)\n\nI wanted to share my progress after two years of investing, open to input and suggestions. I began my investment journey by taking a significant portion of my savings and putting it into two global index funds (SWRD \\~85% &amp; EIMI \\~15%), which track the global equities market. Initially, I couldn't invest monthly because my monthly savings weren't large enough to justify the fees, so I saved up for a few months and invested periodically. As my monthly savings grew, I shifted to monthly contributions. Now, on the first week of every month, I set aside a fixed amount to invest and update my account balances in a spreadsheet.\n\nThis month marks the two-year anniversary of my journey, so I thought it would be a good time to share some charts from my spreadsheet that help to tell the story, my strategy, some of what I’ve learned and invite some input.\n\nThe data for September is from the 4th of September, as I aim to keep consistent time gaps between data points. The total value of the investments is nearly the same today, though there's been an increase in forex loss offset by a (marginally) greater increase in investment returns. The change is an increase of less than RM 200 (&lt;0.1%).\n\n# Investment Plan &amp; Strategy\n\nMy investment plan centers around five key areas:\n\n1. **Build and Maintain an Emergency Fund:** Maintain enough to cover six months of expenses.\n2. **Consistent, Low-Cost Investing:** Focus on a globally diversified portfolio through index funds. I primarily contribute to SWRD but also to EIMI when its allocation falls outside a ±3% target range of my 15% emerging markets allocation. I buy on the same day every month regardless of forex rate and prices, transferring through Wise into IBKR.\n3. **Potential Home Country Bias:** I may add some home country bias in the future.\n4. **Adjusting Risk Exposure:** Using bonds or equivalents (EPF) while considering Small-Cap Value (SCV) or a greater Emerging Markets tilt to increase risk.\n5. **Insurance to cover low probability high impact events that could throw off my plans:** I already have medical coverage through an AIA Lifelink-2 policy (ILP), 300k critical illness coverage (100k AIA ILP rider, which I’m considering removing for a term policy, and 200k term Prudential CI through EPF i-Lindung), and a small life policy. I only plan to augment this life policy with a term life policy if I have dependents, until they are old enough that my passing would no longer be an issue. And the plan is to only have CI coverage until retirement while keeping my medical policy active beyond that.\n\n# Early Stages and Emergency Fund Setup\n\nWhen I first started investing (1 month after I started working), I kept more cash on hand until I had a clearer picture of my expenses after a few months at my job. Once I was comfortable, I set up my emergency fund — aiming for around 6 months of expenses — and began investing more of my cash reserves. Today, my emergency fund consists of \\~RM10k in ASNB and \\~RM2k in MMF (KDI Save) with \\~RM2k cash separate from my EF for monthly expenses.\n\n# Why Index Funds?\n\nI don't believe I can consistently beat the market, especially long-term. Studies show that even professional fund managers rarely outperform the market over 15+ years (fewer than 10% do), and my investing horizon could span 30–60 years (maintaining some equity exposure in retirement) making this likelihood even lower. I prefer to take market returns, whatever they may be, without the stress of picking stocks or monitoring market trends.\n\nAdditionally, I avoid a US-only approach due to concentration risk. While the US may have outperformed recently I see no guarantee this will continue for my entire lifetime and don't want to rely solely on that assumption. A globally diversified portfolio reduces this risk. My emerging markets target allocation is adjusted yearly based roughly on VT's EM allocation as what VT lists as EM doesn’t match EIMI 100% (using VT as an easy way to check market cap weights).\n\n# Currency Considerations\n\nI'm comfortable holding much of my net worth in USD. I view it as a hedge against my future earnings in MYR. The USD is more stable, and in case of hyperinflation or deflation, I believe Malaysia is at higher risk than the US. If the USD strengthens, my investments gain value; if it weakens, I can buy more USD. As I approach retirement and plan for MYR-based liabilities, I’ll likely want to gradually shift more of my assets into MYR.\n\nEven though my investments are in USD, the companies I invest in earn revenue globally. So, if the USD were to devalue, I would expect equities to rise in value accordingly and if not then the purchasing power of my future earnings would go up.\n\n# Experimenting with \"Fun Money\"/Home Country Bias\n\nAbout a year ago, I allocated 5% of my portfolio to Malaysian stocks to scratch the itch of trying to beat the market. I see this as gambling/fun money. Recently, I had a large position in YTL Power, which initially performed well but eventually turned negative due to issues like the 1BestariNet scandal. This experience reinforced my belief in index investing. When SWRD or EIMI dip, I feel confident buying more because of my long investment horizon. However, with single stocks, I feel much less certain, especially when the dips are company-specific/idiosyncratic risks (like a scandal).\n\nIn contrast, when the markets are down, I am more motivated to save and buy more while they're low. This difference in outlook reinforces my choice for index investing. I haven’t reconsidered my fun money allocation yet, though I see value in a small home-country bias, benefits as discussed in [this Ben Felix video](https://www.youtube.com/watch?v=jN8mIHve1Ds). That said, I’d likely cap it at 5-15%, and the lack of low-fee diversified ETFs in Malaysia makes this challenging.\n\n# Considering Small-Cap Value or EM Tilt to Increase Risk\n\nI’ve thought about adding a small-cap value tilt to my portfolio through funds like AVUV or DFSV. I want to take on more risk as the default EPF contribution will skew my portfolio toward bonds faster than I’d prefer. However, I’m uncertain due to higher fees of SCV funds and the fact that small-cap value stocks tend to have a higher portion of their total return coming from dividends, which are diminished by withholding taxes for non-US investors.\n\nOther options I’m considering include an EM tilt or using leverage (through a 2x leveraged ETF or cheap borrowing options like a mortgage to invest more rather than paying down the mortgage). I don’t plan to invest in or purchase property in the near-to-medium term but am open to opinions on these options.\n\n# EPF as Bond Allocation\n\nI treat my EPF as the bond portion of my portfolio since it's backed by the Malaysian government, primarily invested in fixed-income assets and supposed to pay at least 2.5% pa. Therefore, I keep it in calculations of my total NW while keeping in mind that it mostly cannot be accessed until retirement. As I age, I’ll review my bond allocation and consider other bond equivalents, especially if I plan to retire early and need access to funds to bridge the gap before I can withdraw from my EPF.\n\n# Retirement and Withdrawal Strategy\n\nMy goal is to retire with a portfolio large enough to withdraw less than 3% annually. I'll adjust this figure for inflation yearly and consider methods like the Guyton-Klinger or risk-based guardrails to manage withdrawals (or other systematic approaches to vary withdrawals in retirement). This is still a distant goal, and I plan to refine it as I get closer to retirement.\n\nSome resources that shaped the above target include Rational Reminder Episodes [229](https://youtu.be/Fny-pvZS-lo?si=6uqdWFnHmcqpUsIZ) and [224](https://www.youtube.com/watch?v=411fKAh05pk), further research by Prof Scott Cederburg, and James Shack’s videos, as well as the [Guyton-Klinger guardrails](https://www.financialplanningassociation.org/sites/default/files/2020-10/OCT16%20Klinger.pdf) and [Vangduard TDF Glidepaths](https://corporate.vanguard.com/content/dam/corp/research/pdf/vanguards_approach_to_target_date_funds.pdf) among [others](https://www.kitces.com/blog/guyton-klinger-guardrails-retirement-income-rules-risk-based/).\n\nIdeally, this would be a maximum withdrawal amount. I hope to maintain a variable spending plan, especially in the initial years of retirement, where sequence of returns risk is greater. For example, I might cut back on holidays, home improvements, or car replacements if the market is down in the early years of retirement.\n\nOne other area I have heard about is the option of [annuitizing](https://www.youtube.com/watch?v=D_748K5Wa-Y&amp;t=29s) some portion of the fixed income in retirement in order to take advantage of spreading out the longevity risk to an insurer. I was wondering how competitive the market for annuities is in Malaysia and if this makes any sense here. These retirement and withdrawal strategies are all areas I’m still not as well versed in, interested to get input from others for planning for this.\n\n# Medium-Term Expenses Planning\n\nFor medium-term expenses like car maintenance, insurance payments, and holiday funds, I’ve budgeted a portion of my investments as a sort of sinking fund. The plan was to pause investments during months when I use these funds and to track how much was earmarked for each purpose in my spreadsheet to avoid going over budget.\n\nSo far, I’ve been able to absorb these expenses into my monthly budget by naturally cutting back on lifestyle when larger expenses come up, meaning I haven’t had to dip into the sinking fund yet. Additionally, I’ve been slowly adding a small amount to a money market fund (MMF) each month to grow my emergency fund, in preparation for potentially moving out in the future, as that would raise my monthly expenses.\n\n# Notes for Charts\n\n* My net worth charts include all debts and exclude the value of my car (which is fully paid off). The fourth chart details various sources of my net worth, which I use as a sort of “privilege check” and to allow comparison against others with different starting points. If you’re comparing against yourself, note that my employment income chart still does not include rental or car payment expenses, as I’m fortunate to still be living at home and have a car (may be comparable to those living at home and using public transit).\n* The chart has three categories with an explanation of their compositions below:\n   1. Pre-University Savings: Includes allowances, gift money, raya/cny money, etc., almost all in ASNB before I started investing then mostly withdrawn to invest other than 10k EF.\n   2. University Savings: Money saved from allowances and summer work during university, previously all in cash now fully invested.\n   3. Post-University Savings: All savings since I began full-time work.\n* ASNB and money market funds (like KDI and TnG e-wallet) are included in my cash category.\n* The annualized returns chart displays the money-weighted return, which accounts for the timing of cash flows and reflects the annual return required to match the total return. This is calculated using Excel's XIRR formula for both the IBKR and MY portions of my portfolio, as well as for the overall portfolio return, including IBKR, Bursa, EPF, and Cash.\n* The time-weighted return represents the annualized return on a fixed amount invested in 85% SWRD and 15% EIMI at the start of the period. It's calculated using the formula: ((1+Total Return) \\^(365/Days since start of period))-1\n* I am currently 25, with a monthly gross income of RM 4,200, living at home, no car payments.\n\n  \nPlease feel free to share your thoughts on my approach, your own expereinces etc. in the comments below.",
+      "created_utc": 1726566235.0,
+      "score": 137,
+      "num_comments": 31,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1fiuvhr/my_2year_investment_journey_progress_strategy_and/"
+    },
+    {
+      "id": "1dbq0yh",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Buy VOO with moomoo or IBKR",
+      "selftext": "Hi everyone, I have been investing RM1000 monthly for a few months into VOO with IBKR, and the fees to deposit MYR to IBKR with Wise is about RM8 per deposit. When I buy VOO I will be charged another $0.35 trading fees, which totaled up about RM10, or 1% fees for my investment amount. \n\nBut with moomoo introducing fractional shares now, I see the fees is only $0.99 per trade, and the deposit is FREE, so it would be a lot cheaper to invest with moomoo right?",
+      "created_utc": 1717926108.0,
+      "score": 42,
+      "num_comments": 53,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1dbq0yh/buy_voo_with_moomoo_or_ibkr/"
+    },
+    {
+      "id": "1lmrdki",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "What is the ideal way/best broker to DCA US ETF/Stock?",
+      "selftext": "Hey guys, I’m planning to invest long-term and want to DCA into US stocks/ETFs with about RM1000 per month.\n\nI have asked ChatGPT for advice. The suggestion I got was:\n\t•\tFor small monthly amounts, start with Moomoo Malaysia (since it’s easy to fund with MYR and has no wire transfer fees).\n\t•\tThen, once my total portfolio crosses around RM10,000 (~USD 2,500), I should consider selling my holdings in Moomoo, withdraw the cash, and reinvest it into IBKR for better safety (since IBKR has SIPC protection) and lower long-term costs.\n\nDoes this approach make sense? Or is there a better/cheaper way for Malaysians doing small monthly DCA into US markets?",
+      "created_utc": 1751129175.0,
+      "score": 14,
+      "num_comments": 20,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1lmrdki/what_is_the_ideal_waybest_broker_to_dca_us/"
+    },
+    {
+      "id": "1kk4524",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "VOO(MooMoo) or CSPX (IBKR)",
+      "selftext": "I cant seem to find a post that talks specifically about this topic in detail so would love discuss it here.\n\nI (22M), still consider myself new to investing, am currently investing VOO via MooMoo, but after some research, seems like investing in CSPX via IBKR might be better for long term...or is it?\n\nBased on some research (from old videos)\n\n**1. MooMoo**\n\nPros:\n\n\\- Supports Currency Conversion locally and is slightly cheaper compared to IBKR (by roughly 0.2%)\n\n\\- More User Friendly\n\nCons:\n\n\\- 30% Dividend withholding tax\n\n\\- Higher Brokerage Fee\n\n**2. IBKR**\n\nPros:\n\n\\- 15% Dividend withholding tax\n\n\\- Lower Brokerage Fee (Tiered Structure)\n\nCons:\n\n\\- Slight loss from currency conversion via Wise\n\n\\- Less User Friendly Interface\n\nBased on a vide from ziet: [https://www.youtube.com/watch?v=zwpJIP1aNFI&amp;ab\\_channel=ZietInvests](https://www.youtube.com/watch?v=zwpJIP1aNFI&amp;ab_channel=ZietInvests) (Shoutout to my guy), if you have the money to DCA at least 2 shares of CSPX then it will be the better option BUT if you have &lt;400 USD, going for VOO would be better.\n\n**Option 1:**\n\nCurrently based on everything I have researched, my future plan will be to start DCAing into CSPX via IBKR using the tiered pricing structure. For now, I only have roughly 500 MYR per month for investments which will significantly increase in the future. But as of now, my plan would be to start DCA into CSPX every month and when the amount I can use to invest increases, I will save up and DCA into CSPX when I can buy at least 2 or more shares to min max.\n\nOR\n\n**Option 2:**\n\nIts not worth the hassle and I just dgaf and continue DCA into VOO via MooMoo. But based on their fees structure, it would be better for me to save up for a few months and lump sum DCA into it.\n\nIf I am going with option 1. I have 2 shares of VOO in MooMoo, what do I do with them? Just leave it as it is and sell it when there price goes up then use the amount and DCA into CSPX?\n\nSifus, the difference between both might be little (or HUGE depending on the amount but I didnt calculate it myself so idk yet), what are your thoughts? Also which pros and cons are the deal breaker for you? Do let me know in the comment section.",
+      "created_utc": 1746978661.0,
+      "score": 32,
+      "num_comments": 17,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1kk4524/voomoomoo_or_cspx_ibkr/"
+    },
+    {
+      "id": "1gcvi5e",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Looking for best value S&amp;P500 ",
+      "selftext": "\nStraight to point.\n\n-I know the current market is at ATH, plan invest until retirement, I'm 29M and have 1Y of EF\n\n-Started with MYR 200/Monthly into IVV S&amp;P 500 via Stashaway flexi portfolio 2 years ago, on the positive side ATM.\n\n-Plan to move to Moomoo and invest MYR 300/monthly, will increase gradually.\n\n-I did some researches and studied about it. I would like to hear some advices from people over here as well.\n\nAs I always see people talk about VWRA, VOO, IVV, SCHD, VTI, VT and etc. The ETFs that I found below are under US-Domiciled, sadly there is no Ireland-domiciled in Moomoo and currently I'm not sure which one to pick. I expected such comments like \"Why don't you go with IBKR instead, there's Ireland-domiciled ETFs.\" but let's stick to Moomoo for now. All these info are from Yahoo Finance. \n\n————————————\n\n• Closer to S&amp;P500\n\nSPDR Portfolio S&amp;P 500 ETF (SPLG)\n\nPrice now: USD 68 (MYR 295)\n\nExpense ratio: 0.02%\n\nYTD: 23.07%\n\n5Y: 15.81%\n\nAsset Under Management: USD 46.59 billion\n\nNumber of holding: 505\n\nIndex: S&amp;P 500 Index \n\n————————————\n\n• Mixture of S&amp;P500 and VT/VTI\n\n(1)\n\nSchwab U.S. Large-Cap ETF (SCHX)\n\nPrice now: USD 22.85 (MYR 100)\n\nExpense ratio: 0.03%\n\nYTD: 22.69%\n\n5Y: 15.57%\n\nAsset Under Management: USD 46.36 billion\n\nNumber of holding: 751\n\nIndex: Dow Jones U.S. Large-Cap Total Stock Market Index\n\n\n(2)\n\nSchwab U.S. Broad Market ETF (SCHB)\n\nPrice now: 22.36 (MYR 98)\n\nExpense ratio: 0.03%\n\nYTD: 21.64%\n\n5Y: 15.13%\n\nAsset Under Management: USD 31.25 billion\n\nNumber of holding: 2,401\n\nIndex: Dow Jones US Broad Stock Market",
+      "created_utc": 1729978462.0,
+      "score": 36,
+      "num_comments": 27,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1gcvi5e/looking_for_best_value_sp500/"
+    },
+    {
+      "id": "1g6en3r",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Investing in Malaysian stocks through IBKR",
+      "selftext": "Hi, is it recommended to use IBKR to invest in Malaysian stocks? I am working overseas and I don't earn in MYR. I am Malaysian and have a Malaysia bank account though. From my research, IBKR is cheap and trusted, and most of my US stocks are already in IBKR.",
+      "created_utc": 1729246450.0,
+      "score": 8,
+      "num_comments": 30,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1g6en3r/investing_in_malaysian_stocks_through_ibkr/"
+    },
+    {
+      "id": "1izxecf",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Minimum Ringgit per trade on ibkr to not get eaten by commissions",
+      "selftext": "Hi guys noob trader here, last year I tried investing small amount of money buying fractional vwra and cspx to test the waters, i made 2 trades both around 200 myr(first one a little less and the other a little more). I found that I'm charged 1.7 usd on both trades. I came to find recently that there's a commission minimum of rm 12 so I'm not charged the rate of 0.08% of trades. When I calculated it, you can only get to 12 at 15k myr but isn't that a little high? what would you guys consider the minimum you should do at a time and general advice on things i may have overlooked",
+      "created_utc": 1740710032.0,
+      "score": 21,
+      "num_comments": 16,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1izxecf/minimum_ringgit_per_trade_on_ibkr_to_not_get/"
+    },
+    {
+      "id": "14513xc",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "MYR Falling",
+      "selftext": "Hi everyone. As we all know, SGD just hit an all time high against MYR and at the same time, our currency is dropping too. As of now, I have some savings in ASM only. Should I move some of the money to overseas investment such as SP500 via IBKR? And if yes, is it hard to learn how to use IBKR? I have never used it before. Have tried Stashaway but it wasn't doing good and my portfolio never recovered ever since the KWEB incident hence I cleared my Stashaway portfolio already. Thank you in advance for any response!",
+      "created_utc": 1686304971.0,
+      "score": 56,
+      "num_comments": 49,
+      "url": "https://reddit.com/r/MalaysianPF/comments/14513xc/myr_falling/"
+    },
+    {
+      "id": "1i9m3qs",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Question on S&amp;P 500 - CSPX vs VUAA?",
+      "selftext": "Hello,\n\nI'm looking to invest approx MYR 1k /month through DCA via IBKR, funding my USD via Wise. My research has led me to two options, both Irish-domiciled: CSPX and VUAA.\n\nSince both CSPX and VUAA are pretty much identical, but CSPX has a much higher price per share, I would need to buy fractional shares instead if I'm going for that. What are the pros and cons of fractional shares compared to whole shares and which ETF would you suggest in this case?\n\nOn a side note, what are the most cost-effective methods of funding my USD to IBKR (Wise direct funding vs. Wise ACH), and is it better to fund a lump sum or fund monthly?",
+      "created_utc": 1737808805.0,
+      "score": 37,
+      "num_comments": 9,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1i9m3qs/question_on_sp_500_cspx_vs_vuaa/"
+    },
+    {
+      "id": "1bduxua",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "'investment' for noob",
+      "selftext": "I usually put spare/entertainment money in slot machine, but however my non muslim M40 friend needs some guidance on how to invest (apart from safe options like EPF &amp; FD) because he's only drawing a salary. so i decided to dedicate 50k MYR to test market so i can guide him on what to do/what not to do.\n\nabsolute no to savings/emergency funds\n\ndrop ur suggestions here (i've just registered (?) IBKR and gonna watch some youtubers later)",
+      "created_utc": 1710345320.0,
+      "score": 4,
+      "num_comments": 32,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1bduxua/investment_for_noob/"
+    },
+    {
+      "id": "121cc2v",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Looking for feedback on my current investments! - 1 Year Update",
+      "selftext": "I made a [post](https://www.reddit.com/r/MalaysianPF/comments/tnl7d8/looking_for_feedback_on_my_current_investments/) a year ago about my investments and thought I would make an update, maybe some people will find this helpful.\n\nAge: 28\n\nCurrent balance of investments:\n\n1. Stashaway: Total investment across 3 portfolios RM31,675 (down RM1399 from 2022)\n2. ASM: RM 23,500 (up RM 900 from 2022)\n3. IBKR: $10,000 which is about MYR 45,000 ($11,200 invested, down $1.28k) – split across VUSD, VOO and VWRA\n\nTotal returns over the past year: - RM6261 (unrealised)\n\nThings I did over the past year:\n\n* I contributed about $5000 into IBKR, mostly into VWRA (taking the advice of the people who commented on my post last year.)\n* Did not make any contributions into Stashaway or ASM.\n* Celebrated saving my first 100k :’) all this money is saved from my personal income, no contribution from family.\n\nAdditional comments:\n\n* I know a lot of people recommend taking the money out of Stashaway. Considering its currently at a loss, and I’m also not hugely bothered by the management fees, I’m content to leave it there until it recovers. However, I welcome opinions on this. (Is the opportunity loss of leaving the money there more than the loss I would realise if I withdrew the money? I can’t tell.)\n* I also know VOO withholding tax is 30% (I made this investment before realising that) but it forms a relatively small part of the portfolio so again I’m happy to leave it for now.\n\nOverall my portfolio is in unrealised loss, not ideal obviously but I know one year is nothing in the grand scheme of things. I plan to continue adding money into IBKR.\n\nNot strictly investment related, but budget-wise I also relaxed my purse strings a little and decided to spend more money on my family and even took my first short holiday trip in years – I haven’t been on a holiday since I started working. I would like to enjoy my 20s a bit more after having been frugal for years.\n\nEdit 28/3/2023 - I'm so sorry to everyone who commented and I missed it, originally my post was auto-removed by the automoderator for lack of account karma so I figured I'd just forget about it and went away for a few days.  \n",
+      "created_utc": 1679723325.0,
+      "score": 24,
+      "num_comments": 46,
+      "url": "https://reddit.com/r/MalaysianPF/comments/121cc2v/looking_for_feedback_on_my_current_investments_1/"
+    },
+    {
+      "id": "1cb3bq9",
+      "subreddit": "MalaysianPF",
+      "search_term": "MYR IBKR",
+      "title": "Portfolio reallocation advise",
+      "selftext": "Advice* \n\nHey all, this sub reddit has provided me with a lot of value and insights, I am once again back for further enlightenment from everyone here. \n\nCurrently my investment/saving portfolio is distributed as follows: \n\n1. HSBC - Structured Investment + FD \n\nI prefer to keep my relationship balance as I get some perks here and there from it, however my FD is pretty much rotting at a 2.8% rate.\n\nThe bank has not been very clear on all the wealth and investment plans they have showed me as I wanted to reallocate my FD amount in something els. Unit trusts not that attractive for me, life insurance linked investment confusing as there were a good amount of bad reviews about it on SG PF. Really unsure on how to better utilize this FD amount whilst keeping it in the bank. \n\n2. IBKR - Been slowly increasing my DCA since last year from a 1-2k MYR to 4k MYR every month between VTI, VGT and SCHD. \n\nSo far the returns have been pretty great and I wish to put more money over the next year or two into these ETFs. \n\n3. Stashaway - 1 conservative portfolio and 1 big amount in now available US Treasury Bills giving 5.3% (currently)\n\n4. Don’t ask me about EPF, I have some amount in there but I am not a Malaysian citizen, a resident of more than a decade only. \n\n5. Very lil crypto and some PMO unit trust that has not been performing too well.\n\nLast time I put up clear cut figures in my post, some people thought I was flexing which was not the intent. So I will just say the big picture. This is a total portfolio of around 600k myr currently, with  60% in cash including liquid investments like SA , FD and 40% invested in like ETFs, Structured Investment.\n\nI believe I need to reduce cash and increase my growth assets, this is the 1st time I am having this much excess cash, would like to utilize this better.\n\nWould really appreciate other perspectives.\n\n",
+      "created_utc": 1713875236.0,
+      "score": 2,
+      "num_comments": 28,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1cb3bq9/portfolio_reallocation_advise/"
+    }
+  ]
+}

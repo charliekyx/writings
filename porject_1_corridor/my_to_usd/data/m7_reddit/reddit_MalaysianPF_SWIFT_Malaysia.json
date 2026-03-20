@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "subreddit": "MalaysianPF",
+    "search_term": "SWIFT Malaysia",
+    "fetched_at": "2026-03-17T03:26:34.521251Z",
+    "count": 2,
+    "source": "public_json"
+  },
+  "posts": [
+    {
+      "id": "1hl2vob",
+      "subreddit": "MalaysianPF",
+      "search_term": "SWIFT Malaysia",
+      "title": "Money Transfer - Alternate to Wise?",
+      "selftext": "Hello all,  \nAre there anybody here knows of alternate cost effective way for money transfer between Malaysia banks and US banks/financial companies? I've been using Wise but lately they have been very slow and very inconsistent eg. take money from your account first and ask for documentation over and over and hold your money eventhough they have all your information from the start. The customer service is horrible, unable to talk to anybody via real phone call or chat. Only email and sometimes thru thru portal only.\n\nI can resort back to traditional SWIFT method but it does cost a bomb even for a small amount.\n\nThank you.",
+      "created_utc": 1735004547.0,
+      "score": 17,
+      "num_comments": 16,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1hl2vob/money_transfer_alternate_to_wise/"
+    },
+    {
+      "id": "1aeo396",
+      "subreddit": "MalaysianPF",
+      "search_term": "SWIFT Malaysia",
+      "title": "Looking to transfer SGD from SG to MY without Currency Conversion",
+      "selftext": "So I'm looking to transfer some SGD from my bank account in SG to an SGD denominated account (foreign currency account) in Malaysia. \n\nThe only way so far that I've found without conversion is the bank's TT (telegraphic transfer) but the costs are 30 SGD per transfer and there are upper limits to how much I can transfer per day.  \n\nSo my current option is:  \n1. TT via SWIFT (only way to far, but with high fees and low daily cap)  \n2. Wise? But Wise only does conversion and assumes a bank account in Malaysia is denominated in MYR.\n\nAny ideas?",
+      "created_utc": 1706620330.0,
+      "score": 0,
+      "num_comments": 5,
+      "url": "https://reddit.com/r/MalaysianPF/comments/1aeo396/looking_to_transfer_sgd_from_sg_to_my_without/"
+    }
+  ]
+}
