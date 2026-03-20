@@ -1,0 +1,27 @@
+# Copy to urls.yaml, add real article URLs, then run fetch_corpus.py
+# Do not commit urls.yaml if it contains private notes; URLs alone are usually fine.
+
+settings:
+  delay_seconds: 1.5
+  # Identify yourself; some sites block generic bots
+  user_agent: "OnStyleResearch/1.0 (personal writing research; +https://example.com)"
+
+# Optional: CSS selectors for main content, keyed by hostname (no port)
+hosts:
+  www.kalzumeus.com:
+    article_selectors:
+      - article
+      - ".entry-content"
+      - ".post-content"
+      - main
+
+# 更多自选：https://www.kalzumeus.com/greatest-hits/
+urls:
+  - https://www.kalzumeus.com/2012/01/23/salary-negotiation/
+  - https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/
+  - https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
+  - https://www.kalzumeus.com/2010/04/20/building-highly-reliable-websites-for-small-companies/
+  - https://www.kalzumeus.com/2010/03/20/running-a-software-business-on-5-hours-a-week/
+  - https://www.kalzumeus.com/2010/01/24/startup-seo/
+  - https://www.kalzumeus.com/2009/03/07/how-to-successfully-compete-with-open-source-software/
+  - https://www.kalzumeus.com/2014/11/07/doing-business-in-japan/

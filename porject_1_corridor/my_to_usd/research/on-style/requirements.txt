@@ -1,0 +1,2 @@
+# Delegate to parent research environment (single source of truth)
+-r ../requirements.txt

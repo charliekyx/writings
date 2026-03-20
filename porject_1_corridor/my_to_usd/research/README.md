@@ -15,6 +15,7 @@ Plan, data-mining scripts, and deliverables for validating user anxiety and keyw
 | [anxiety_checklist.md](anxiety_checklist.md) | Deliverable: which anxiety assumptions are supported. |
 | [keyword_table.md](keyword_table.md) | Deliverable: keyword list + volume/frequency + source. |
 | [article_angle.md](article_angle.md) | Deliverable: title/H2 and must-cover keywords. |
+| [on-style/README.md](on-style/README.md) | **Style research:** fetch reference URLs → heuristic profile (`style_brief.md`) for voice/trust patterns. |
 
 ## Setup
 
@@ -49,6 +50,13 @@ pip install -r requirements.txt
   python keyword_frequency.py
   ```
   Reads all `data/reddit_*.json` (or a CSV path via `--input`) and writes `data/keyword_frequency_<date>.csv`.
+
+- **Reference author style (on-style)** — copy `on-style/urls.example.yaml` to `on-style/urls.yaml`, add URLs, then:
+  ```bash
+  python on-style/fetch_corpus.py --urls on-style/urls.yaml --out-dir on-style/corpus
+  python on-style/extract_style_profile.py --corpus-dir on-style/corpus --out-dir on-style/output
+  ```
+  See [on-style/README.md](on-style/README.md).
 
 ## Data layout
 
