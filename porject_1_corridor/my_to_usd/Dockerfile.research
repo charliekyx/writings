@@ -1,0 +1,24 @@
+# 研究流水线镜像：在仓库 my_to_usd 目录下构建
+# docker build -f Dockerfile.research -t my-to-usd-research .
+FROM python:3.12-slim-bookworm
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY research_modules/requirements.txt /app/research_modules/requirements.txt
+RUN pip install --no-cache-dir -r /app/research_modules/requirements.txt \
+    && python -m playwright install --with-deps chromium
+
+COPY . /app/
+
+ENV PYTHONUNBUFFERED=1
+ENV STRICT_AUTO=1
+# 可选：SKIP_M3_MAYBANK=1 / SKIP_M7=1 等（见 docker_entry.sh）
+
+# 构建上下文应为 porject_1_corridor/my_to_usd
+WORKDIR /app
+
+CMD ["bash", "research_modules/docker_entry.sh"]

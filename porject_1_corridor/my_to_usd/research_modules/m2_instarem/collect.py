@@ -2,11 +2,10 @@
 m2_instarem/collect.py
 ───────────────────────
 收集 Instarem MYR→USD 报价。
-Instarem 没有公开 API，提供两种模式：
 
-  --mode auto   : 尝试抓取 Instarem 公开报价页面 (requests + BeautifulSoup)
-                  若页面结构变化或反爬，自动退回 manual 模式
-  --mode manual : 交互式 CLI，手动输入报价（推荐，来源最可靠）
+  --mode auto   : 优先调用官网公开端点 GET /api/v1/public/transaction/computed-value
+                  （与网页计算器同源）；失败时再尝试 BeautifulSoup 旧选择器
+  --mode manual : 交互式 CLI，手动输入报价
 
 最佳实践：与 M1 在同一时刻运行（同一时段内），确保对比公平。
 
@@ -19,7 +18,7 @@ Instarem 没有公开 API，提供两种模式：
 """
 
 import argparse
-import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -36,6 +35,62 @@ RAW_QUOTES = DATA_DIR / "raw_quotes.jsonl"
 
 # Instarem 公开计算器（结构随时可能变化）
 INSTAREM_CALC_URL = "https://www.instarem.com/en-my/send-money/myr-to-usd/"
+INSTAREM_API_BASE = os.environ.get("INSTAREM_API_BASE", "https://www.instarem.com/api").rstrip(
+    "/"
+)
+
+
+def fetch_instarem_public_api(amount_myr: float) -> dict | None:
+    """
+    Instarem 公开计算器 API（无需登录；与页面 widget 同源）。
+    GET .../v1/public/transaction/computed-value?...
+    """
+    params = {
+        "source_currency": "MYR",
+        "destination_currency": "USD",
+        "instarem_bank_account_id": "",
+        "country_code": "MY",
+        "source_amount": int(amount_myr),
+    }
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/json",
+    }
+    url = f"{INSTAREM_API_BASE}/v1/public/transaction/computed-value"
+    try:
+        resp = requests.get(url, params=params, headers=headers, timeout=15)
+        resp.raise_for_status()
+        payload = resp.json()
+        if not payload.get("success") or not payload.get("data"):
+            print(f"  [api] Unexpected success/data: {str(payload)[:200]}")
+            return None
+        data = payload["data"]
+        rate = float(data.get("fx_rate") or data.get("instarem_fx_rate") or 0)
+        if rate <= 0:
+            print("  [api] Missing positive fx_rate in response.")
+            return None
+        fee = float(data.get("transaction_fee_amount") or 0)
+        target = float(data.get("destination_amount") or 0)
+        ts = datetime.now(timezone.utc)
+        return {
+            "timestamp": ts.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "source": "instarem_public_api",
+            "source_amount": float(amount_myr),
+            "instarem_rate": rate,
+            "fee_total_myr": fee,
+            "target_amount": round(target, 2) if target else round(
+                (amount_myr - fee) * rate, 2
+            ),
+            "session": session_for(ts),
+            "mid_rate_at_quote": None,
+        }
+    except Exception as e:
+        print(f"  [api] Public API failed: {e}")
+        return None
 
 
 def fetch_instarem_auto(amount_myr: float) -> dict | None:
@@ -52,6 +107,10 @@ def fetch_instarem_auto(amount_myr: float) -> dict | None:
         "Accept-Language": "en-US,en;q=0.9",
     }
     try:
+        api = fetch_instarem_public_api(amount_myr)
+        if api is not None:
+            return api
+
         resp = requests.get(INSTAREM_CALC_URL, headers=headers, timeout=15)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -122,11 +181,16 @@ def run(amounts: list, mode: str = "manual") -> None:
     mid = fetch_mid_rate("MYR", "USD")
     print(f"  mid: 1 MYR = {mid['mid_rate']:.6f} USD  [{mid['timestamp']}]")
 
+    strict = os.environ.get("STRICT_AUTO", "").lower() in ("1", "true", "yes")
+
     for amount in amounts:
         print(f"\nProcessing RM {amount:,.0f}...")
         if mode == "auto":
             record = fetch_instarem_auto(amount)
             if record is None:
+                if strict:
+                    print("  Auto failed and STRICT_AUTO=1 — exiting.")
+                    sys.exit(1)
                 print("  Auto failed. Falling back to manual input.")
                 record = fetch_instarem_manual(amount)
         else:

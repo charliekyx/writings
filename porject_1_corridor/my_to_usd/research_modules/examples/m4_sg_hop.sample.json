@@ -1,0 +1,42 @@
+[
+  {
+    "bank": "cimb",
+    "source_amount_myr": 10000,
+    "leg1_fee_myr": 0,
+    "leg1_rate_note": "placeholder — replace from official fee schedule",
+    "leg2_fx_spread_pct": 0.6,
+    "leg2_wire_fee_sgd": 25,
+    "leg2_intermediary_usd": 25,
+    "swift_mode": "SHA"
+  },
+  {
+    "bank": "cimb",
+    "source_amount_myr": 50000,
+    "leg1_fee_myr": 0,
+    "leg1_rate_note": "placeholder",
+    "leg2_fx_spread_pct": 0.6,
+    "leg2_wire_fee_sgd": 25,
+    "leg2_intermediary_usd": 25,
+    "swift_mode": "SHA"
+  },
+  {
+    "bank": "hsbc",
+    "source_amount_myr": 10000,
+    "leg1_fee_myr": 0,
+    "leg1_rate_note": "placeholder",
+    "leg2_fx_spread_pct": 0.6,
+    "leg2_wire_fee_sgd": 30,
+    "leg2_intermediary_usd": 25,
+    "swift_mode": "SHA"
+  },
+  {
+    "bank": "hsbc",
+    "source_amount_myr": 50000,
+    "leg1_fee_myr": 0,
+    "leg1_rate_note": "placeholder",
+    "leg2_fx_spread_pct": 0.6,
+    "leg2_wire_fee_sgd": 30,
+    "leg2_intermediary_usd": 25,
+    "swift_mode": "SHA"
+  }
+]

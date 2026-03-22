@@ -3,18 +3,24 @@ m1_wise/collect.py
 ──────────────────
 获取 Wise MYR→USD 报价，同时记录 Frankfurter mid-rate 作为对照锚点。
 
-Wise 全部 API 端点需要 auth token，无匿名接口。
-本脚本采用两种策略:
+本脚本支持三种策略:
+  --mode api     : Wise 官方 API（需 WISE_API_TOKEN 以解析 profile；若 profile 报价返回 401，
+                   则自动改用无鉴权 POST /v3/quotes，source=wise_api_public）
   --mode scrape  : 从 wise.com 网页提取嵌入的汇率 JSON（无需 token）
                    费用按 wise.com pricing 页记录的结构估算
-  --mode manual  : 交互式 CLI，从 wise.com 手动查询后填入（最可靠）
+  --mode manual  : 交互式 CLI（TTY）；流水线中请用 api 或 scrape
 
 注意: 使用 --loop 参数可在同一天多个时段采样，用于 spread 稳定性研究。
 
+环境变量:
+  WISE_API_TOKEN    Bearer token（api 模式必填）
+  WISE_PROFILE_ID   数字 profile id；未设则 GET /v1/profiles 取首个 personal
+  WISE_API_BASE     默认 https://api.wise.com
+
 用法:
-    python collect.py                          # scrape 模式，默认两个金额
-    python collect.py --mode manual            # 手动模式
-    python collect.py --loop 3 --wait 3600     # 每小时采样一次，共 3 次
+    python collect.py --mode api
+    python collect.py --mode scrape
+    python collect.py --loop 3 --wait 3600
 
 输出:
     data/m1_wise/raw_quotes.jsonl
@@ -22,6 +28,7 @@ Wise 全部 API 端点需要 auth token，无匿名接口。
 """
 
 import argparse
+import os
 import re
 import sys
 import time
@@ -52,6 +59,159 @@ WISE_HEADERS = {
 # MYR→USD bank transfer: 固定费 + 变动费（0.57% × 金额）
 WISE_FEE_FIXED_MYR = 4.14
 WISE_FEE_VARIABLE_PCT = 0.0057
+
+WISE_API_BASE = os.environ.get("WISE_API_BASE", "https://api.wise.com").rstrip("/")
+
+
+def _wise_headers() -> dict:
+    token = os.environ.get("WISE_API_TOKEN", "").strip()
+    if not token:
+        raise RuntimeError("WISE_API_TOKEN is not set (required for --mode api)")
+    return {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+    }
+
+
+def wise_get_profile_id() -> int:
+    """Resolve profile id from WISE_PROFILE_ID or first personal profile."""
+    env_id = os.environ.get("WISE_PROFILE_ID", "").strip()
+    if env_id:
+        return int(env_id)
+    url = f"{WISE_API_BASE}/v1/profiles"
+    resp = requests.get(url, headers=_wise_headers(), timeout=30)
+    resp.raise_for_status()
+    profiles = resp.json()
+    if not profiles:
+        raise RuntimeError("No Wise profiles returned from GET /v1/profiles")
+    for p in profiles:
+        if (p.get("type") or "").upper() == "PERSONAL":
+            return int(p["id"])
+    return int(profiles[0]["id"])
+
+
+def _pick_payment_option(quote: dict) -> dict | None:
+    """Choose enabled BANK_TRANSFER payIn option; else first enabled."""
+    options = quote.get("paymentOptions") or []
+    preferred_pay_in = (quote.get("preferredPayIn") or "BANK_TRANSFER").upper()
+    preferred_pay_out = (quote.get("payOut") or "BANK_TRANSFER").upper()
+    candidates = []
+    for opt in options:
+        if opt.get("disabled"):
+            continue
+        candidates.append(opt)
+    for opt in candidates:
+        if (opt.get("payIn") or "").upper() == preferred_pay_in and (
+            opt.get("payOut") or ""
+        ).upper() == preferred_pay_out:
+            return opt
+    for opt in candidates:
+        if (opt.get("payIn") or "").upper() == "BANK_TRANSFER":
+            return opt
+    return candidates[0] if candidates else None
+
+
+def _fee_total_myr_from_option(opt: dict) -> float:
+    fee = opt.get("fee") or {}
+    total = fee.get("total")
+    if total is not None:
+        return float(total)
+    price = opt.get("price") or {}
+    pt = price.get("total") or {}
+    val = pt.get("value") or {}
+    amt = val.get("amount")
+    if amt is not None:
+        return float(amt)
+    return 0.0
+
+
+def _wise_quote_from_json(
+    quote: dict,
+    *,
+    profile_id: int | None,
+    source_label: str,
+    fee_note: str,
+) -> dict:
+    opt = _pick_payment_option(quote)
+    if not opt:
+        raise RuntimeError("No enabled paymentOptions in Wise quote response")
+
+    rate = float(quote.get("rate") or 0)
+    if rate <= 0:
+        raise RuntimeError("Wise quote missing positive rate")
+
+    fee_total = _fee_total_myr_from_option(opt)
+    target_amount = float(opt.get("targetAmount") or quote.get("targetAmount") or 0)
+    source_amount = float(opt.get("sourceAmount") or quote.get("sourceAmount") or 0)
+
+    ts = datetime.now(timezone.utc)
+    return {
+        "timestamp": ts.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "session": session_for(ts),
+        "source": source_label,
+        "source_currency": "MYR",
+        "target_currency": "USD",
+        "source_amount": source_amount,
+        "target_amount": target_amount,
+        "wise_rate": rate,
+        "fee_total_myr": fee_total,
+        "fee_variable_myr": None,
+        "fee_fixed_myr": None,
+        "fee_note": fee_note,
+        "wise_quote_id": quote.get("id"),
+        "wise_profile_id": profile_id,
+        "wise_pay_in": opt.get("payIn"),
+        "wise_pay_out": opt.get("payOut"),
+        "mid_rate_at_quote": None,
+    }
+
+
+def fetch_wise_api(amount_myr: float, profile_id: int) -> dict:
+    """
+    POST /v3/profiles/{profileId}/quotes — fees and rate from API response.
+    If the platform returns 401 (mustBeAuthenticated), fall back to
+    POST /v3/quotes (unauthenticated illustrative quote; see Wise API docs).
+    """
+    body = {
+        "sourceCurrency": "MYR",
+        "targetCurrency": "USD",
+        "sourceAmount": amount_myr,
+        "preferredPayIn": "BANK_TRANSFER",
+    }
+    url = f"{WISE_API_BASE}/v3/profiles/{profile_id}/quotes"
+    resp = requests.post(url, headers=_wise_headers(), json=body, timeout=45)
+
+    if resp.status_code == 401:
+        pub = requests.post(
+            f"{WISE_API_BASE}/v3/quotes",
+            headers={"Content-Type": "application/json"},
+            json=body,
+            timeout=45,
+        )
+        if not pub.ok:
+            raise RuntimeError(
+                f"Wise quote API 401; public /v3/quotes then {pub.status_code}: "
+                f"{pub.text[:500]}"
+            )
+        quote = pub.json()
+        return _wise_quote_from_json(
+            quote,
+            profile_id=None,
+            source_label="wise_api_public",
+            fee_note=(
+                "unauthenticated POST /v3/quotes (fallback when profile quote returns 401)"
+            ),
+        )
+
+    if not resp.ok:
+        raise RuntimeError(f"Wise quote API {resp.status_code}: {resp.text[:500]}")
+    quote = resp.json()
+    return _wise_quote_from_json(
+        quote,
+        profile_id=profile_id,
+        source_label="wise_api",
+        fee_note="from Wise API paymentOptions fee total",
+    )
 
 
 def fetch_wise_scrape(amount_myr: float) -> dict:
@@ -119,6 +279,12 @@ def fetch_wise_manual(amount_myr: float) -> dict:
 
 def run(amounts: list, loops: int = 1, wait_sec: int = 0, mode: str = "scrape") -> None:
     section("M1 Wise — collect.py")
+    strict = os.environ.get("STRICT_AUTO", "").lower() in ("1", "true", "yes")
+    profile_id: int | None = None
+    if mode == "api":
+        profile_id = wise_get_profile_id()
+        print(f"  Using Wise profile_id={profile_id} (api.wise.com)")
+
     for loop_i in range(loops):
         if loops > 1:
             print(f"\n── Loop {loop_i + 1}/{loops} ──")
@@ -133,10 +299,17 @@ def run(amounts: list, loops: int = 1, wait_sec: int = 0, mode: str = "scrape") 
             try:
                 if mode == "manual":
                     quote = fetch_wise_manual(amount)
+                elif mode == "api":
+                    assert profile_id is not None
+                    quote = fetch_wise_api(amount, profile_id)
                 else:
                     try:
                         quote = fetch_wise_scrape(amount)
                     except Exception as e:
+                        if strict:
+                            raise RuntimeError(
+                                f"Wise scrape failed and STRICT_AUTO is set: {e}"
+                            ) from e
                         print(f"  Scrape failed ({e}). Falling back to manual.")
                         quote = fetch_wise_manual(amount)
 
@@ -147,6 +320,8 @@ def run(amounts: list, loops: int = 1, wait_sec: int = 0, mode: str = "scrape") 
                 print(f"  fee_total  : RM {quote['fee_total_myr']:.2f}")
             except Exception as e:
                 print(f"  ERROR: {e}")
+                if strict:
+                    sys.exit(1)
 
         if loop_i < loops - 1:
             print(f"\nWaiting {wait_sec}s before next sample...")
@@ -158,8 +333,12 @@ def run(amounts: list, loops: int = 1, wait_sec: int = 0, mode: str = "scrape") 
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch Wise MYR→USD quotes.")
-    parser.add_argument("--mode", choices=["scrape", "manual"], default="scrape",
-                        help="scrape: extract from wise.com page; manual: CLI input")
+    parser.add_argument(
+        "--mode",
+        choices=["api", "scrape", "manual"],
+        default="scrape",
+        help="api: Wise API (WISE_API_TOKEN); scrape: wise.com HTML; manual: CLI",
+    )
     parser.add_argument("--amount", type=float, action="append",
                         help="Amount in MYR (repeatable). Default: 10000 50000")
     parser.add_argument("--loop", type=int, default=1,

@@ -1,0 +1,27 @@
+# my_to_usd — 线上定时任务示例（服务器时区一般为 UTC，如用 Asia/Kuala_Lumpur 请换算）
+#
+# 安装方式（任选其一）：
+#   crontab -e
+#   把下面「推荐」段中一行粘贴进去，并把 MY_TO_USD_ROOT 换成仓库在服务器上的绝对路径。
+#
+# 推荐：每天 2 次 —— 对应马来西亚时间约 09:00 与 17:00（覆盖营业日早盘与收盘前）
+#   cron(UTC): 分 时 * * *
+#   01:00 UTC = 09:00 MYT
+#   09:00 UTC = 17:00 MYT
+#
+# 推荐（双跑，UTC）：
+#   0 1,9 * * * cd /ABS/PATH/TO/my_to_usd && /usr/bin/bash research_modules/docker_entry.sh >> /var/log/my_to_usd_pipeline.log 2>&1
+#
+# 若只希望每天 1 次（约马来西亚 10:00）：
+#   0 2 * * * cd /ABS/PATH/TO/my_to_usd && /usr/bin/bash research_modules/docker_entry.sh >> /var/log/my_to_usd_pipeline.log 2>&1
+#
+# 若项目在 Docker 内执行，把上面 cd ... && bash ... 换成你的 docker run / compose 调用。
+#
+# --- Google Cloud Scheduler（HTTP 触发 Cloud Run / 自建 webhook）时区可选 ---
+# 频率示例：每天 09:00 与 17:00（Asia/Kuala_Lumpur）
+#   0 9,17 * * *
+# 需在 Cloud Scheduler 中把 cron 时区设为 Asia/Kuala_Lumpur，并指向能执行 docker_entry.sh 的端点或 VM。
+#
+# 注意：
+# - 流水线依赖 .env（与仓库同目录）；cron 环境通常无 login shell，务必在仓库根目录执行。
+# - STRICT_AUTO=1 时若某步失败会整批退出；线上需日志 + 告警（见 LOCAL_RUN.txt）。

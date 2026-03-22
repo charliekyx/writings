@@ -17,14 +17,11 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from utils import section
+from utils import fetch_mid_rate, section
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "m4_sg_hop"
 FEE_SCHEDULE = DATA_DIR / "fee_schedule.jsonl"
 CLEAN_CSV = DATA_DIR / "hop_clean.csv"
-
-# SGD/USD mid（近似值；实际由 collect.py 的 mid_rate_myr_sgd 推导）
-SGD_USD_APPROX = 0.755   # 1 SGD ≈ 0.755 USD（近似，随时更新）
 
 
 def clean() -> pd.DataFrame:
@@ -54,8 +51,10 @@ def clean() -> pd.DataFrame:
 
     # Leg 2 Wire fee (SGD → MYR 转换)
     # 用 mid_rate_myr_sgd: 1 MYR = X SGD → 1 SGD = 1/X MYR
-    sgd_to_myr = 1.0 / df.get("mid_rate_myr_sgd", pd.Series(
-        [1 / SGD_USD_APPROX] * len(df)))
+    if "mid_rate_myr_sgd" not in df.columns or df["mid_rate_myr_sgd"].isna().all():
+        fallback = fetch_mid_rate("MYR", "SGD")["mid_rate"]
+        df["mid_rate_myr_sgd"] = fallback
+    sgd_to_myr = 1.0 / df["mid_rate_myr_sgd"]
     df["leg2_wire_cost_myr"] = df["leg2_wire_fee_sgd"].fillna(0.0) * sgd_to_myr
 
     # 中间行费用 (USD → MYR)

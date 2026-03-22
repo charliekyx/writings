@@ -1,0 +1,62 @@
+my_to_usd — 本地（线下）跑流水线：指令与频率
+────────────────────────────────────────────
+
+一、一次性完整验证（部署前必做）
+──────────────────────────────
+在仓库根目录 my_to_usd 下：
+
+  cd /path/to/my_to_usd
+  source .venv/bin/activate
+  set -a && source .env && set +a
+  bash research_modules/docker_entry.sh
+
+说明：
+  - 若 STRICT_AUTO=1 且 Maybank 官网在你网络不可达，会在 M3 失败并退出。
+  - 本地想「整条跑完」做联调：可临时 STRICT_AUTO=0（会允许 M3 回退 manual，需交互），或
+    先分段跑各模块（见下文）。
+  - 跳过 Maybank（避免长时间超时）：SKIP_M3_MAYBANK=1
+  - Docker 默认无 TTY：STRICT_AUTO=0 且 scrape 失败时无法手填，会清晰退出；请用 SKIP_M3_MAYBANK=1 或 STRICT_AUTO=1，或 `docker run -it`。
+  - 跳过 Reddit 全流程：SKIP_M7=1（与 SKIP_M8 类似）。
+  - Docker：`docker run --env-file .env` 中的 STRICT_AUTO 会优先于镜像内 COPY 进去的 .env
+    （docker_entry.sh 已恢复运行时注入值；改 STRICT_AUTO 不必只为这一项重建镜像）。
+
+二、常用单模块（按需）
+────────────────────────────────
+  python research_modules/m1_wise/collect.py --mode api
+  python research_modules/m2_instarem/collect.py --mode auto
+  python research_modules/m3_bank_tt/collect.py --mode manual --bank maybank
+  python research_modules/m3_bank_tt/collect.py --mode scrape --bank cimb
+
+三、什么时候跑、多久跑一次（建议）
+────────────────────────────────────────
+  - 部署前 / 改 .env 后：        至少完整跑 1 次 docker_entry.sh。
+  - 写文章定稿前：              再跑 1 次（或至少 M1+M2+M3 与你关心的路由）。
+  - 日常开发：                  不必每天跑全量；改哪个模块就只跑对应 collect/analyze/chart。
+  - Maybank 需手填时：          用 --mode manual；不必等 scrape 成功。
+
+四、线上频率（与 crontab.example 一致）
+────────────────────────────────────────
+  - 推荐：每天 2 次（UTC 01:00 与 09:00 ≈ MYT 09:00 与 17:00）。
+  - 备选：每天 1 次（UTC 02:00 ≈ MYT 10:00）。
+
+五、与线上一致：用 Docker 镜像测（部署前推荐）
+────────────────────────────────────────
+  若线上跑的是容器（Dockerfile.research 的 CMD = docker_entry.sh），本地应优先用同一镜像验证，
+  避免本机 Python/Playwright 与镜像不一致。
+
+  在 my_to_usd 根目录：
+
+    docker build -f Dockerfile.research -t my-to-usd-research .
+
+  用与线上一致的密钥（不要提交 .env；可用临时文件或 -e）：
+
+    docker run --rm --env-file .env my-to-usd-research
+
+  若 .env 不在默认路径，可复制为 deploy.env 再：
+
+    docker run --rm --env-file deploy.env my-to-usd-research
+
+  说明：
+  - 镜像内已 pip install + playwright chromium，与 Dockerfile 一致。
+  - 网络与线上仍可能不同（出口 IP、防火墙）；Maybank 不可达时行为与线上一致也会失败。
+  - 与「本机 venv 直接 bash docker_entry.sh」二选一即可；要最接近线上用 Docker。

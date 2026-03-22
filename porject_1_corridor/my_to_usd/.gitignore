@@ -1,0 +1,31 @@
+# 密钥与本地配置（模板 .env.example 仍提交）
+.env
+.env.local
+*.local.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 流水线产出（脚本可重跑生成）
+data/
+charts/
+
+# 日志与临时文件
+*.log
+/tmp/
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Playwright（若以后在仓库内生成报告）
+playwright-report/
+test-results/
